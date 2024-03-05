@@ -1,0 +1,2275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FormDebugbutton10Text" xml:space="preserve">
+    <value>WaterCoolFan 6 Stop</value>
+    <comment>水冷风机 6 停</comment>
+  </data>
+  <data name="FormDebugbutton11Text" xml:space="preserve">
+    <value>WaterCoolFan 6 Run</value>
+    <comment>水冷风机 6 转</comment>
+  </data>
+  <data name="FormDebugbutton12Text" xml:space="preserve">
+    <value>WaterCoolFan 5 Stop</value>
+    <comment>水冷风机 5 停</comment>
+  </data>
+  <data name="FormDebugbutton13Text" xml:space="preserve">
+    <value>WaterCoolFan 5 Run</value>
+    <comment>水冷风机 5 转</comment>
+  </data>
+  <data name="FormDebugbutton14Text" xml:space="preserve">
+    <value>WaterCoolFan total Stop</value>
+    <comment>水冷风机 总 停</comment>
+  </data>
+  <data name="FormDebugbutton15Text" xml:space="preserve">
+    <value>WaterCoolFan total Run</value>
+    <comment>水冷风机 总 转</comment>
+  </data>
+  <data name="FormDebugbutton16Text" xml:space="preserve">
+    <value>WaterCool PID control parameter</value>
+    <comment>水冷 PID 控制参数</comment>
+  </data>
+  <data name="FormDebugbutton17Text" xml:space="preserve">
+    <value>Result data</value>
+    <comment>结果数据</comment>
+  </data>
+  <data name="FormDebugbutton18Text" xml:space="preserve">
+    <value>Negative pressure target Value</value>
+    <comment>负压目标值</comment>
+  </data>
+  <data name="FormDebugbutton19Text" xml:space="preserve">
+    <value>WaterCool System flow valve Open</value>
+    <comment>水冷系统流量阀开度</comment>
+  </data>
+  <data name="FormDebugbutton1Text" xml:space="preserve">
+    <value>Init Operation</value>
+    <comment>初始操作</comment>
+  </data>
+  <data name="FormDebugbutton20Text" xml:space="preserve">
+    <value>Press Bed pop-up parameter</value>
+    <comment>压床弹开参数</comment>
+  </data>
+  <data name="FormDebugbutton21Text" xml:space="preserve">
+    <value>WaterCool System control Temp</value>
+    <comment>水冷系统控制温度</comment>
+  </data>
+  <data name="FormDebugbutton2Text" xml:space="preserve">
+    <value>WaterCoolFan 2 Stop</value>
+    <comment>水冷风机 2 停</comment>
+  </data>
+  <data name="FormDebugbutton3Text" xml:space="preserve">
+    <value>WaterCoolFan 2 Run</value>
+    <comment>水冷风机 2 转</comment>
+  </data>
+  <data name="FormDebugbutton4Text" xml:space="preserve">
+    <value>WaterCoolFan 1 Stop</value>
+    <comment>水冷风机 1 停</comment>
+  </data>
+  <data name="FormDebugbutton5Text" xml:space="preserve">
+    <value>WaterCoolFan 1 Run</value>
+    <comment>水冷风机 1 转</comment>
+  </data>
+  <data name="FormDebugbutton6Text" xml:space="preserve">
+    <value>WaterCoolFan 4 Stop</value>
+    <comment>水冷风机 4 停</comment>
+  </data>
+  <data name="FormDebugbutton7Text" xml:space="preserve">
+    <value>WaterCoolFan 4 Run</value>
+    <comment>水冷风机 4 转</comment>
+  </data>
+  <data name="FormDebugbutton8Text" xml:space="preserve">
+    <value>WaterCoolFan 3 Stop</value>
+    <comment>水冷风机 3 停</comment>
+  </data>
+  <data name="FormDebugbutton9Text" xml:space="preserve">
+    <value>WaterCoolFan 3 Run</value>
+    <comment>水冷风机 3 转</comment>
+  </data>
+  <data name="FormDebugbutton_ShieldedSensorText" xml:space="preserve">
+    <value>屏蔽传感器 detection</value>
+    <comment>屏蔽传感器检测</comment>
+  </data>
+  <data name="FormDebugbutton_上位机不报警Text" xml:space="preserve">
+    <value>Upper machine No Alarm</value>
+    <comment>上位机不报警</comment>
+  </data>
+  <data name="FormDebugbutton_上位机报警Text" xml:space="preserve">
+    <value>Upper machine Alarm</value>
+    <comment>上位机报警</comment>
+  </data>
+  <data name="FormDebugbutton_上针床风机停Text" xml:space="preserve">
+    <value>Upper Needle Bed Fan Stop</value>
+    <comment>上针床风机停</comment>
+  </data>
+  <data name="FormDebugbutton_上针床风机转Text" xml:space="preserve">
+    <value>Upper Needle Bed Fan Run</value>
+    <comment>上针床风机转</comment>
+  </data>
+  <data name="FormDebugbutton_下针床风机停Text" xml:space="preserve">
+    <value>Lower Needle Bed Fan Stop</value>
+    <comment>下针床风机停</comment>
+  </data>
+  <data name="FormDebugbutton_下针床风机转Text" xml:space="preserve">
+    <value>Lower Needle Bed Fan Run</value>
+    <comment>下针床风机转</comment>
+  </data>
+  <data name="FormDebugbutton_关闭风机总开Text" xml:space="preserve">
+    <value>Close total Fan</value>
+    <comment>关闭风机总开</comment>
+  </data>
+  <data name="FormDebugbutton_异常启动关闭Text" xml:space="preserve">
+    <value>Abnormal Start-Up Close</value>
+    <comment>异常启动关闭</comment>
+  </data>
+  <data name="FormDebugbutton_异常启动打开Text" xml:space="preserve">
+    <value>Abnormal Start-Up Open</value>
+    <comment>异常启动打开</comment>
+  </data>
+  <data name="FormDebugbutton_异常断电Text" xml:space="preserve">
+    <value>Abnormal Power-Off</value>
+    <comment>异常断电</comment>
+  </data>
+  <data name="FormDebugbutton_打开风机总开Text" xml:space="preserve">
+    <value>Open Total Fan</value>
+    <comment>打开风机总开</comment>
+  </data>
+  <data name="FormDebugbutton_报警参数Text" xml:space="preserve">
+    <value>Alarm Parameters</value>
+    <comment>报警参数</comment>
+  </data>
+  <data name="FormDebugbutton_报警清除Text" xml:space="preserve">
+    <value>Alarm Clear</value>
+    <comment>报警清除</comment>
+  </data>
+  <data name="FormDebugbutton_掉电恢复Text" xml:space="preserve">
+    <value>Power-Down Recovery</value>
+    <comment>掉电恢复</comment>
+  </data>
+  <data name="FormDebugbutton_掉电清除Text" xml:space="preserve">
+    <value>Power-Down Clear</value>
+    <comment>掉电清除</comment>
+  </data>
+  <data name="FormDebugbutton_排烟风机停Text" xml:space="preserve">
+    <value>Exhaust Fan Stop</value>
+    <comment>排烟风机停</comment>
+  </data>
+  <data name="FormDebugbutton_排烟风机转Text" xml:space="preserve">
+    <value>Exhaust Fan Run</value>
+    <comment>排烟风机转</comment>
+  </data>
+  <data name="FormDebugbutton_机构温度补偿参数Text" xml:space="preserve">
+    <value>Mechanical Temp compensation</value>
+    <comment>机构温度补偿</comment>
+  </data>
+  <data name="FormDebugbutton_校正工装供电Text" xml:space="preserve">
+    <value>Calibration tool Power On</value>
+    <comment>校正工装供电</comment>
+  </data>
+  <data name="FormDebugbutton_校正工装断电Text" xml:space="preserve">
+    <value>Calibration tool Power Off</value>
+    <comment>校正工装断电</comment>
+  </data>
+  <data name="FormDebugbutton_气缸张开Text" xml:space="preserve">
+    <value>Cylinder Open</value>
+    <comment>气缸张开</comment>
+  </data>
+  <data name="FormDebugbutton_气缸闭合Text" xml:space="preserve">
+    <value>Cylinder Close</value>
+    <comment>气缸闭合</comment>
+  </data>
+  <data name="FormDebugbutton_水冷电磁阀关闭Text" xml:space="preserve">
+    <value>WaterCool solenoid valve Close</value>
+    <comment>水冷电磁阀关闭</comment>
+  </data>
+  <data name="FormDebugbutton_水冷电磁阀打开Text" xml:space="preserve">
+    <value>WaterCool solenoid valve Open</value>
+    <comment>水冷电磁阀打开</comment>
+  </data>
+  <data name="FormDebugbutton_电磁锁关闭Text" xml:space="preserve">
+    <value>Electromagnetic lock Close</value>
+    <comment>电磁锁关闭</comment>
+  </data>
+  <data name="FormDebugbutton_电磁锁打开Text" xml:space="preserve">
+    <value>Electromagnetic lock Open</value>
+    <comment>电磁锁打开</comment>
+  </data>
+  <data name="FormDebugbutton_系统停止Text" xml:space="preserve">
+    <value>System Stoppage</value>
+    <comment>系统停止</comment>
+  </data>
+  <data name="FormDebugbutton_系统启动Text" xml:space="preserve">
+    <value>System Start-Up</value>
+    <comment>系统启动</comment>
+  </data>
+  <data name="FormDebugbutton_自动门张开Text" xml:space="preserve">
+    <value>AutoDoor Open</value>
+    <comment>自动门张开</comment>
+  </data>
+  <data name="FormDebugbutton_自动门落下Text" xml:space="preserve">
+    <value>AutoDoor Down</value>
+    <comment>自动门落下</comment>
+  </data>
+  <data name="FormDebugbutton_蜂鸣器关闭AText" xml:space="preserve">
+    <value>Buzzer M Open</value>
+    <comment>蜂鸣器关闭A</comment>
+  </data>
+  <data name="FormDebugbutton_蜂鸣器关闭MText" xml:space="preserve">
+    <value>Buzzer M Close</value>
+    <comment>蜂鸣器关闭M</comment>
+  </data>
+  <data name="FormDebugbutton_蜂鸣器打开AText" xml:space="preserve">
+    <value>Buzzer A Open</value>
+    <comment>蜂鸣器打开A</comment>
+  </data>
+  <data name="FormDebugbutton_蜂鸣器打开MText" xml:space="preserve">
+    <value>Buzzer A Close</value>
+    <comment>蜂鸣器打开M</comment>
+  </data>
+  <data name="FormDebugbutton_运行灯亮Text" xml:space="preserve">
+    <value>Operat lamp On</value>
+    <comment>运行灯亮</comment>
+  </data>
+  <data name="FormDebugbutton_运行灯灭Text" xml:space="preserve">
+    <value>Operat lamp Off</value>
+    <comment>运行灯灭</comment>
+  </data>
+  <data name="FormDebugbutton_进入手动模式Text" xml:space="preserve">
+    <value>Enter Manual Mode</value>
+    <comment>进入手动模式</comment>
+  </data>
+  <data name="FormDebugbutton_退出手动模式Text" xml:space="preserve">
+    <value>Exit Manual Mode</value>
+    <comment>退出手动模式</comment>
+  </data>
+  <data name="FormDebugbutton_逆变器上电Text" xml:space="preserve">
+    <value>Inverter Power On</value>
+    <comment>逆变器上电</comment>
+  </data>
+  <data name="FormDebugbutton_逆变器断电Text" xml:space="preserve">
+    <value>Inverter Power Off</value>
+    <comment>逆变器断电</comment>
+  </data>
+  <data name="FormDebugcheckBox_ShieldedFireDoorSensorText" xml:space="preserve">
+    <value>Safety Door</value>
+    <comment>安全门</comment>
+  </data>
+  <data name="FormDebuggroupBox1Text" xml:space="preserve">
+    <value>Digital output test area (Manual Mode)</value>
+    <comment>数字量输出测试区（手动模式）</comment>
+  </data>
+  <data name="FormDebuggroupBox2Text" xml:space="preserve">
+    <value>Other</value>
+    <comment>其他</comment>
+  </data>
+  <data name="FormDebuggroupBox3Text" xml:space="preserve">
+    <value>Shield sensor detection</value>
+    <comment>屏蔽传感器检测</comment>
+  </data>
+  <data name="FormDebuglabel10Text" xml:space="preserve">
+    <value>Press Bed pop-up time (s):</value>
+    <comment>压床弹开时间（s）:</comment>
+  </data>
+  <data name="FormDebuglabel11Text" xml:space="preserve">
+    <value>Press Bed pop-up negative pressure Value (KPa):</value>
+    <comment>压床弹开负压值（KPa）:</comment>
+  </data>
+  <data name="FormDebuglabel12Text" xml:space="preserve">
+    <value>WaterCool System control Temp target Value (℃):</value>
+    <comment>水冷系统控制温度目标值（℃）:</comment>
+  </data>
+  <data name="FormDebuglabel1Text" xml:space="preserve">
+    <value>Mechanical Temp Alarm Value (℃):</value>
+    <comment>机构温度报警值(℃):</comment>
+  </data>
+  <data name="FormDebuglabel2Text" xml:space="preserve">
+    <value>Battery Temp Alarm Value (℃):</value>
+    <comment>电池温度报警值(℃):</comment>
+  </data>
+  <data name="FormDebuglabel3Text" xml:space="preserve">
+    <value>Smoke Alarm Value (PM):</value>
+    <comment>烟雾报警值(PM):</comment>
+  </data>
+  <data name="FormDebuglabel4Text" xml:space="preserve">
+    <value>Kp Coefficient:</value>
+    <comment>Kp 系数:</comment>
+  </data>
+  <data name="FormDebuglabel5Text" xml:space="preserve">
+    <value>Ki Coefficient:</value>
+    <comment>Ki 系数:</comment>
+  </data>
+  <data name="FormDebuglabel6Text" xml:space="preserve">
+    <value>Kd Coefficient:</value>
+    <comment>Kd 系数:</comment>
+  </data>
+  <data name="FormDebuglabel7Text" xml:space="preserve">
+    <value>Regulation period T (s):</value>
+    <comment>调节周期 T（s）:</comment>
+  </data>
+  <data name="FormDebuglabel8Text" xml:space="preserve">
+    <value>WaterCool System flow valve Open:</value>
+    <comment>水冷系统流量阀开度:</comment>
+  </data>
+  <data name="FormDebuglabel9Text" xml:space="preserve">
+    <value>Negative pressure target Value:</value>
+    <comment>负压目标值:</comment>
+  </data>
+  <data name="FormDebuglabel_TPluggTest_PressureValueText" xml:space="preserve">
+    <value>Mechanical Temp compensation parameters (℃):</value>
+    <comment>机构温度补偿参数(℃):</comment>
+  </data>
+  <data name="FormLoginbutton1Text" xml:space="preserve">
+    <value>Login</value>
+    <comment>登录</comment>
+  </data>
+  <data name="FormLoginlabel1Text" xml:space="preserve">
+    <value>Employee ID:</value>
+    <comment>工号:</comment>
+  </data>
+  <data name="FormLoginlabel2Text" xml:space="preserve">
+    <value>Password:</value>
+    <comment>密码:</comment>
+  </data>
+  <data name="FormLoginText" xml:space="preserve">
+    <value>Login</value>
+    <comment>登录</comment>
+  </data>
+  <data name="FormMainbutton主页Text" xml:space="preserve">
+    <value>Home</value>
+    <comment>主页</comment>
+  </data>
+  <data name="FormMainbutton传感数据Text" xml:space="preserve">
+    <value>Sensor Data</value>
+    <comment>传感数据</comment>
+  </data>
+  <data name="FormMainbutton历史数据Text" xml:space="preserve">
+    <value>Historical Data</value>
+    <comment>历史数据</comment>
+  </data>
+  <data name="FormMainbutton实时数据Text" xml:space="preserve">
+    <value>Real-Time Data</value>
+    <comment>实时数据</comment>
+  </data>
+  <data name="FormMainbutton手动作业Text" xml:space="preserve">
+    <value>Manual Operations</value>
+    <comment>手动作业</comment>
+  </data>
+  <data name="FormMainbutton系统设置Text" xml:space="preserve">
+    <value>System Setts</value>
+    <comment>系统设置</comment>
+  </data>
+  <data name="FormMainbutton运行记录Text" xml:space="preserve">
+    <value>Runtime Logs</value>
+    <comment>运行记录</comment>
+  </data>
+  <data name="FormMainLabelItemTitleText" xml:space="preserve">
+    <value>Repository Information</value>
+    <comment>库位信息</comment>
+  </data>
+  <data name="FormMainLanguageText" xml:space="preserve">
+    <value>Language:</value>
+    <comment>语言</comment>
+  </data>
+  <data name="FormMainLanguageText1" xml:space="preserve">
+    <value>Language:</value>
+    <comment>语言</comment>
+  </data>
+  <data name="FormMain登录ToolStripMenuItemText" xml:space="preserve">
+    <value>Login</value>
+    <comment>登录</comment>
+  </data>
+  <data name="FormMain退出ToolStripMenuItemText" xml:space="preserve">
+    <value>Logout</value>
+    <comment>退出</comment>
+  </data>
+  <data name="Form_AlarmCol发生时间HeaderText" xml:space="preserve">
+    <value>Time of occurrence</value>
+    <comment>发生时间</comment>
+  </data>
+  <data name="Form_AlarmCol设备编号HeaderText" xml:space="preserve">
+    <value>Equipment Number</value>
+    <comment>设备编号</comment>
+  </data>
+  <data name="Form_AlarmCol错误内容HeaderText" xml:space="preserve">
+    <value>Error Content</value>
+    <comment>错误内容</comment>
+  </data>
+  <data name="Form_AlarmCol错误类型HeaderText" xml:space="preserve">
+    <value>Error Type</value>
+    <comment>错误类型</comment>
+  </data>
+  <data name="Form_IPbutton1Text" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存</comment>
+  </data>
+  <data name="Form_IPlabel4Text" xml:space="preserve">
+    <value>IP Address:</value>
+    <comment>IP地址:</comment>
+  </data>
+  <data name="Form_NG代码Column1HeaderText" xml:space="preserve">
+    <value>NG Code</value>
+    <comment>NG代码</comment>
+  </data>
+  <data name="Form_NG代码Column2HeaderText" xml:space="preserve">
+    <value>Classification,</value>
+    <comment>分类</comment>
+  </data>
+  <data name="Form_NG代码Column3HeaderText" xml:space="preserve">
+    <value>Description</value>
+    <comment>描述</comment>
+  </data>
+  <data name="Form_NG代码Column4HeaderText" xml:space="preserve">
+    <value>Judgment Count</value>
+    <comment>判断次数</comment>
+  </data>
+  <data name="Form_NG代码Column5HeaderText" xml:space="preserve">
+    <value>Judgment Stage</value>
+    <comment>判断阶段</comment>
+  </data>
+  <data name="Form_NG代码Column6HeaderText" xml:space="preserve">
+    <value>Judgment Subject</value>
+    <comment>判断主体</comment>
+  </data>
+  <data name="Form_TrayInfoButton_SaveText" xml:space="preserve">
+    <value>Send</value>
+    <comment>发送</comment>
+  </data>
+  <data name="Form_TrayInfolabel1Text" xml:space="preserve">
+    <value>Batch Number:</value>
+    <comment>批次编号:</comment>
+  </data>
+  <data name="Form_TrayInfolabel2Text" xml:space="preserve">
+    <value>Pallet Number:</value>
+    <comment>托盘号:</comment>
+  </data>
+  <data name="Form_TrayInfouiButton1Text" xml:space="preserve">
+    <value>Auto</value>
+    <comment>自动</comment>
+  </data>
+  <data name="Form传感数据ButtonDebugText" xml:space="preserve">
+    <value>Debug</value>
+    <comment>Debug</comment>
+  </data>
+  <data name="Form传感数据groupBox1Text" xml:space="preserve">
+    <value>Mechanical State</value>
+    <comment>机构状态</comment>
+  </data>
+  <data name="Form传感数据groupBox2Text" xml:space="preserve">
+    <value>Sensor State</value>
+    <comment>传感器状态</comment>
+  </data>
+  <data name="Form传感数据groupBox3Text" xml:space="preserve">
+    <value>Channel Temp</value>
+    <comment>通道温度</comment>
+  </data>
+  <data name="Form传感数据groupBox4Text" xml:space="preserve">
+    <value>Mechanical Temp</value>
+    <comment>机构温度</comment>
+  </data>
+  <data name="Form传感数据groupBox5Text" xml:space="preserve">
+    <value>CAN Communication Error Count</value>
+    <comment>CAN 通讯累计错误次数</comment>
+  </data>
+  <data name="Form传感数据groupBoxMCU软件版本号Text" xml:space="preserve">
+    <value>MCU Software Version Number</value>
+    <comment>MCU软件版本号</comment>
+  </data>
+  <data name="Form传感数据groupBox上针床风机状态Text" xml:space="preserve">
+    <value>Upper Needle Bed Fan State</value>
+    <comment>上针床风机状态</comment>
+  </data>
+  <data name="Form传感数据groupBox下位机工作模式Text" xml:space="preserve">
+    <value>Lower Machine Mode</value>
+    <comment>下位机工作模式</comment>
+  </data>
+  <data name="Form传感数据groupBox下针床风机状态Text" xml:space="preserve">
+    <value>Lower Needle Bed Fan State</value>
+    <comment>下针床风机状态</comment>
+  </data>
+  <data name="Form传感数据groupBox复位按钮信号Text" xml:space="preserve">
+    <value>Reset Button Signal</value>
+    <comment>复位按钮信号</comment>
+  </data>
+  <data name="Form传感数据groupBox工装取电状态Text" xml:space="preserve">
+    <value>tool Power-On State</value>
+    <comment>工装取电状态</comment>
+  </data>
+  <data name="Form传感数据groupBox平台监控总状态Text" xml:space="preserve">
+    <value>Platform Monitor Overall State</value>
+    <comment>平台监控总状态</comment>
+  </data>
+  <data name="Form传感数据groupBox急停按钮检测Text" xml:space="preserve">
+    <value>Emergency Stop Button Detection</value>
+    <comment>急停按钮检测</comment>
+  </data>
+  <data name="Form传感数据groupBox托盘状态Text" xml:space="preserve">
+    <value>Pallet State</value>
+    <comment>托盘状态</comment>
+  </data>
+  <data name="Form传感数据groupBox掉电标记Text" xml:space="preserve">
+    <value>Power-Down Marker</value>
+    <comment>掉电标记</comment>
+  </data>
+  <data name="Form传感数据groupBox整体机械结构工作状态Text" xml:space="preserve">
+    <value>Overall Mechanical Structure Operat State</value>
+    <comment>整体机械结构工作状态</comment>
+  </data>
+  <data name="Form传感数据groupBox机构严重故障状态Text" xml:space="preserve">
+    <value>Serious Mechanical Fault State</value>
+    <comment>机构严重故障状态</comment>
+  </data>
+  <data name="Form传感数据groupBox机构传感器报警Text" xml:space="preserve">
+    <value>Mechanical Sensor Alarm</value>
+    <comment>机构传感器报警</comment>
+  </data>
+  <data name="Form传感数据groupBox比例阀开度值Text" xml:space="preserve">
+    <value>Proportional Valve Open</value>
+    <comment>比例阀开度值</comment>
+  </data>
+  <data name="Form传感数据groupBox气压状态Text" xml:space="preserve">
+    <value>Air Pressure State</value>
+    <comment>气压状态</comment>
+  </data>
+  <data name="Form传感数据groupBox气缸状态Text" xml:space="preserve">
+    <value>Cylinder State</value>
+    <comment>气缸状态</comment>
+  </data>
+  <data name="Form传感数据groupBox水冷阀检测Text" xml:space="preserve">
+    <value>WaterCool Valve Detection</value>
+    <comment>水冷阀检测</comment>
+  </data>
+  <data name="Form传感数据groupBox水冷风机状态Text" xml:space="preserve">
+    <value>WaterCoolFan State</value>
+    <comment>水冷风机状态</comment>
+  </data>
+  <data name="Form传感数据groupBox流量阀开度状态Text" xml:space="preserve">
+    <value>Flow Valve Open State</value>
+    <comment>流量阀开度状态</comment>
+  </data>
+  <data name="Form传感数据groupBox烟道风机状态Text" xml:space="preserve">
+    <value>Exhaust Fan State</value>
+    <comment>烟道风机状态</comment>
+  </data>
+  <data name="Form传感数据groupBox烟雾状态Text" xml:space="preserve">
+    <value>Smoke State</value>
+    <comment>烟雾状态</comment>
+  </data>
+  <data name="Form传感数据groupBox电池平均温度值Text" xml:space="preserve">
+    <value>Average Battery Temp</value>
+    <comment>电池平均温度值</comment>
+  </data>
+  <data name="Form传感数据groupBox维修门检测Text" xml:space="preserve">
+    <value>Maintenance Door detection</value>
+    <comment>维修门检测</comment>
+  </data>
+  <data name="Form传感数据groupBox自动门到位检测Text" xml:space="preserve">
+    <value>AutoDoor Position Detection</value>
+    <comment>自动门到位检测</comment>
+  </data>
+  <data name="Form传感数据groupBox货叉状态Text" xml:space="preserve">
+    <value>Fork State</value>
+    <comment>货叉状态</comment>
+  </data>
+  <data name="Form传感数据groupBox逆变器电源状态Text" xml:space="preserve">
+    <value>Inverter Power Supply State</value>
+    <comment>逆变器电源状态</comment>
+  </data>
+  <data name="Form传感数据groupBox通信状态Text" xml:space="preserve">
+    <value>Communication State</value>
+    <comment>通信状态</comment>
+  </data>
+  <data name="Form传感数据groupBox门气缸到位检测Text" xml:space="preserve">
+    <value>Door Cylinder Position Detection</value>
+    <comment>门气缸到位检测</comment>
+  </data>
+  <data name="Form实时数据buttonNG代码Text" xml:space="preserve">
+    <value>NG Code</value>
+    <comment>NG代码</comment>
+  </data>
+  <data name="Form实时数据button停止流程Text" xml:space="preserve">
+    <value>Stop process</value>
+    <comment>停止流程</comment>
+  </data>
+  <data name="Form实时数据button其他Text" xml:space="preserve">
+    <value>Voltage Difference
+Step</value>
+    <comment>\r\n电压差\r\n步次</comment>
+  </data>
+  <data name="Form实时数据button初始操作Text" xml:space="preserve">
+    <value>Init Operation</value>
+    <comment>初始操作</comment>
+  </data>
+  <data name="Form实时数据button发送流程Text" xml:space="preserve">
+    <value>Send process</value>
+    <comment>发送流程</comment>
+  </data>
+  <data name="Form实时数据button容量能量Text" xml:space="preserve">
+    <value>Capacity
+Energy</value>
+    <comment>\r\n容量\r\n能量</comment>
+  </data>
+  <data name="Form实时数据button工作时间Text" xml:space="preserve">
+    <value>Process Time
+Step Time</value>
+    <comment>\r\n流程时间\r\n步次时间</comment>
+  </data>
+  <data name="Form实时数据button工作状态Text" xml:space="preserve">
+    <value>Work State
+NG Code</value>
+    <comment>\r\n工作状态\r\nNG代码</comment>
+  </data>
+  <data name="Form实时数据button掉电恢复Text" xml:space="preserve">
+    <value>Power Recovery</value>
+    <comment>掉电恢复</comment>
+  </data>
+  <data name="Form实时数据button数据截取Text" xml:space="preserve">
+    <value>Data TRuncation</value>
+    <comment>数据截取</comment>
+  </data>
+  <data name="Form实时数据button流程信息Text" xml:space="preserve">
+    <value>Process Information</value>
+    <comment>流程信息</comment>
+  </data>
+  <data name="Form实时数据button温度Text" xml:space="preserve">
+    <value>Channel Temp
+Battery Temp</value>
+    <comment>\r\n通道温度\r\n电池温度</comment>
+  </data>
+  <data name="Form实时数据button电压电流Text" xml:space="preserve">
+    <value>Voltage
+Current</value>
+    <comment>\r\n电压\r\n电流</comment>
+  </data>
+  <data name="Form实时数据button电芯条码Text" xml:space="preserve">
+    <value>Battery Number</value>
+    <comment>电池编号</comment>
+  </data>
+  <data name="Form实时数据button线电压阻抗Text" xml:space="preserve">
+    <value>Line voltage
+Impedance</value>
+    <comment>\r\n线电压\r\n阻抗</comment>
+  </data>
+  <data name="Form实时数据button视图切换Text" xml:space="preserve">
+    <value>Switch View</value>
+    <comment>视图切换</comment>
+  </data>
+  <data name="Form实时数据button重新作业Text" xml:space="preserve">
+    <value>Re-Operation</value>
+    <comment>重新作业</comment>
+  </data>
+  <data name="Form实时数据label10Text" xml:space="preserve">
+    <value>Process Code</value>
+    <comment>流程代码</comment>
+  </data>
+  <data name="Form实时数据label1Text" xml:space="preserve">
+    <value>Battery Model</value>
+    <comment>电池型号</comment>
+  </data>
+  <data name="Form实时数据label2Text" xml:space="preserve">
+    <value>Batch Number</value>
+    <comment>批次编号</comment>
+  </data>
+  <data name="Form实时数据label3Text" xml:space="preserve">
+    <value>Pallet Number</value>
+    <comment>托盘号</comment>
+  </data>
+  <data name="Form实时数据label4Text" xml:space="preserve">
+    <value>Battery Count</value>
+    <comment>电池数量</comment>
+  </data>
+  <data name="Form实时数据label5Text" xml:space="preserve">
+    <value>Work Time</value>
+    <comment>工作时间</comment>
+  </data>
+  <data name="Form实时数据label6Text" xml:space="preserve">
+    <value>Step Time</value>
+    <comment>步次时间</comment>
+  </data>
+  <data name="Form实时数据label7Text" xml:space="preserve">
+    <value>Work State</value>
+    <comment>工作状态</comment>
+  </data>
+  <data name="Form实时数据label8Text" xml:space="preserve">
+    <value>Step Type</value>
+    <comment>步次类型</comment>
+  </data>
+  <data name="Form实时数据label9Text" xml:space="preserve">
+    <value>Inverter State</value>
+    <comment>逆变器状态</comment>
+  </data>
+  <data name="Form实时数据labelNGCountText" xml:space="preserve">
+    <value>NG Count</value>
+    <comment>NG数量</comment>
+  </data>
+  <data name="Form实时数据StrNG代码" xml:space="preserve">
+    <value>N:</value>
+    <comment>N:</comment>
+  </data>
+  <data name="Form实时数据Str容量" xml:space="preserve">
+    <value>C:</value>
+    <comment>C:</comment>
+  </data>
+  <data name="Form实时数据Str工作状态" xml:space="preserve">
+    <value>W:</value>
+    <comment>W:</comment>
+  </data>
+  <data name="Form实时数据Str步次" xml:space="preserve">
+    <value>S:</value>
+    <comment>S:</comment>
+  </data>
+  <data name="Form实时数据Str步次时间" xml:space="preserve">
+    <value>S:</value>
+    <comment>S:</comment>
+  </data>
+  <data name="Form实时数据Str流程时间" xml:space="preserve">
+    <value>P:</value>
+    <comment>P:</comment>
+  </data>
+  <data name="Form实时数据Str电压" xml:space="preserve">
+    <value>V:</value>
+    <comment>V:</comment>
+  </data>
+  <data name="Form实时数据Str电压差" xml:space="preserve">
+    <value>V:</value>
+    <comment>V:</comment>
+  </data>
+  <data name="Form实时数据Str电池温度" xml:space="preserve">
+    <value>B:</value>
+    <comment>B:</comment>
+  </data>
+  <data name="Form实时数据Str电流" xml:space="preserve">
+    <value>C:</value>
+    <comment>C:</comment>
+  </data>
+  <data name="Form实时数据Str线电压" xml:space="preserve">
+    <value>L:</value>
+    <comment>L:</comment>
+  </data>
+  <data name="Form实时数据Str能量" xml:space="preserve">
+    <value>E:</value>
+    <comment>E:</comment>
+  </data>
+  <data name="Form实时数据Str通道温度" xml:space="preserve">
+    <value>C:</value>
+    <comment>C:</comment>
+  </data>
+  <data name="Form实时数据Str阻抗" xml:space="preserve">
+    <value>I:</value>
+    <comment>I:</comment>
+  </data>
+  <data name="Form手动作业ButtonDeleteText" xml:space="preserve">
+    <value>Delete</value>
+    <comment>删除</comment>
+  </data>
+  <data name="Form手动作业ButtonInsertText" xml:space="preserve">
+    <value>Add</value>
+    <comment>添加</comment>
+  </data>
+  <data name="Form手动作业ButtonSaveText" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存</comment>
+  </data>
+  <data name="Form手动作业buttonSendText" xml:space="preserve">
+    <value>Send</value>
+    <comment>发送</comment>
+  </data>
+  <data name="Form手动作业label1Text" xml:space="preserve">
+    <value>Select Process:</value>
+    <comment>选择流程:</comment>
+  </data>
+  <data name="Form添加流程buttonSacveText" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>确认</comment>
+  </data>
+  <data name="Form添加流程label1Text" xml:space="preserve">
+    <value>Copy process:</value>
+    <comment>复制流程:</comment>
+  </data>
+  <data name="Form系统设置tabPage1Text" xml:space="preserve">
+    <value>Parameter Setts</value>
+    <comment>参数设置</comment>
+  </data>
+  <data name="Form系统设置tabPage2Text" xml:space="preserve">
+    <value>Mapp Setts</value>
+    <comment>映射设置</comment>
+  </data>
+  <data name="Form系统设置tabPage3Text" xml:space="preserve">
+    <value>Key Component Operation Record</value>
+    <comment>关键器件运行记录</comment>
+  </data>
+  <data name="Form系统设置tabPage4Text" xml:space="preserve">
+    <value>Database Management</value>
+    <comment>数据库管理</comment>
+  </data>
+  <data name="Form系统设置tabPage5Text" xml:space="preserve">
+    <value>User Management</value>
+    <comment>用户管理</comment>
+  </data>
+  <data name="Form设备信息button1Text" xml:space="preserve">
+    <value>Device State</value>
+    <comment>设备状态</comment>
+  </data>
+  <data name="Form设备信息button2Text" xml:space="preserve">
+    <value>Process State</value>
+    <comment>流程状态</comment>
+  </data>
+  <data name="Form设备信息button4Text" xml:space="preserve">
+    <value>Pallet Information</value>
+    <comment>托盘信息</comment>
+  </data>
+  <data name="Form设备信息button6Text" xml:space="preserve">
+    <value>MCU Information</value>
+    <comment>MCU信息</comment>
+  </data>
+  <data name="Form设备信息groupBox1Text" xml:space="preserve">
+    <value>Unenabled</value>
+    <comment>未启用</comment>
+  </data>
+  <data name="Form设备信息groupBox2Text" xml:space="preserve">
+    <value>Alarm</value>
+    <comment>报警</comment>
+  </data>
+  <data name="Form设备信息groupBox3Text" xml:space="preserve">
+    <value>Operat</value>
+    <comment>作业中</comment>
+  </data>
+  <data name="Form设备信息groupBox4Text" xml:space="preserve">
+    <value>Idle</value>
+    <comment>闲置</comment>
+  </data>
+  <data name="Form设备信息groupBox5Text" xml:space="preserve">
+    <value>Prepar</value>
+    <comment>作业准备</comment>
+  </data>
+  <data name="Form设备信息groupBox6Text" xml:space="preserve">
+    <value>Completed</value>
+    <comment>作业完成</comment>
+  </data>
+  <data name="Form设备信息groupBox7Text" xml:space="preserve">
+    <value>Battery Count</value>
+    <comment>电池数量</comment>
+  </data>
+  <data name="Form设备信息groupBox无通信Text" xml:space="preserve">
+    <value>Disconnect</value>
+    <comment>无通信</comment>
+  </data>
+  <data name="Form设备信息label10Text" xml:space="preserve">
+    <value>Mechanical Error
+Vacuum Test Alarm</value>
+    <comment>\r\n机构错误\r\n真空测试报警</comment>
+  </data>
+  <data name="Form设备信息label11Text" xml:space="preserve">
+    <value>Over-Temp Alarm
+Smoke Alarm</value>
+    <comment>\r\n超温报警\r\n烟雾报警</comment>
+  </data>
+  <data name="Form设备信息label12Text" xml:space="preserve">
+    <value>Power-Down Marker</value>
+    <comment>掉电标记</comment>
+  </data>
+  <data name="Form设备信息label13Text" xml:space="preserve">
+    <value>Charg/Discharg Test Alarm
+Upper Machine Alarm</value>
+    <comment>\r\n充放电测试报警\r\n上位机报警</comment>
+  </data>
+  <data name="Form设备信息label14Text" xml:space="preserve">
+    <value>Timeout</value>
+    <comment>超时</comment>
+  </data>
+  <data name="Form设备信息label1Text" xml:space="preserve">
+    <value>Init State</value>
+    <comment>初始状态</comment>
+  </data>
+  <data name="Form设备信息label2Text" xml:space="preserve">
+    <value>Unenabled</value>
+    <comment>未启用</comment>
+  </data>
+  <data name="Form设备信息label3Text" xml:space="preserve">
+    <value>Disconnect</value>
+    <comment>无通信</comment>
+  </data>
+  <data name="Form设备信息label4Text" xml:space="preserve">
+    <value>Pallet Entered</value>
+    <comment>托盘进入</comment>
+  </data>
+  <data name="Form设备信息label5Text" xml:space="preserve">
+    <value>Process Prepar</value>
+    <comment>流程准备</comment>
+  </data>
+  <data name="Form设备信息label6Text" xml:space="preserve">
+    <value>Process Wait</value>
+    <comment>流程等待</comment>
+  </data>
+  <data name="Form设备信息label7Text" xml:space="preserve">
+    <value>Process Runn</value>
+    <comment>流程中</comment>
+  </data>
+  <data name="Form设备信息label8Text" xml:space="preserve">
+    <value>Job Completed
+Wait for Outbound</value>
+    <comment>\r\n作业完成\r\n等待出库</comment>
+  </data>
+  <data name="Form设备信息label9Text" xml:space="preserve">
+    <value>Pallet Position Error</value>
+    <comment>托盘位置错误</comment>
+  </data>
+  <data name="Form设备信息labe火警Text" xml:space="preserve">
+    <value>Fire Alarm</value>
+    <comment>火警</comment>
+  </data>
+  <data name="Form设备信息WMSConnectionFailed" xml:space="preserve">
+    <value>WMS Connection Failed</value>
+    <comment>WMS连接失败</comment>
+  </data>
+  <data name="Form设备信息WMSConnectionSuccessful" xml:space="preserve">
+    <value>WMS Connection Successful</value>
+    <comment>WMS连接成功</comment>
+  </data>
+  <data name="Form设备信息传感数据ToolStripMenuItemText" xml:space="preserve">
+    <value>Sensor Data</value>
+    <comment>传感数据</comment>
+  </data>
+  <data name="Form设备信息停止流程ToolStripMenuItemText" xml:space="preserve">
+    <value>Stop Process</value>
+    <comment>停止流程</comment>
+  </data>
+  <data name="Form设备信息切置自动ToolStripMenuItemText" xml:space="preserve">
+    <value>Switch to Auto</value>
+    <comment>切置自动</comment>
+  </data>
+  <data name="Form设备信息初始操作ToolStripMenuItemText" xml:space="preserve">
+    <value>Init Operation</value>
+    <comment>初始操作</comment>
+  </data>
+  <data name="Form设备信息发送流程ToolStripMenuItemText" xml:space="preserve">
+    <value>Send Process</value>
+    <comment>发送流程</comment>
+  </data>
+  <data name="Form设备信息实时数据ToolStripMenuItemText" xml:space="preserve">
+    <value>Real-Time Data</value>
+    <comment>实时数据</comment>
+  </data>
+  <data name="Form设备信息掉电恢复ToolStripMenuItemText" xml:space="preserve">
+    <value>Power-Down Recovery</value>
+    <comment>掉电恢复</comment>
+  </data>
+  <data name="Form设备信息掉电操作ToolStripMenuItemText" xml:space="preserve">
+    <value>Power-Down Operation</value>
+    <comment>掉电操作</comment>
+  </data>
+  <data name="Form设备信息掉电清除ToolStripMenuItemText" xml:space="preserve">
+    <value>Power-Down Clear</value>
+    <comment>掉电清除</comment>
+  </data>
+  <data name="Form设备信息流程信息ToolStripMenuItemText" xml:space="preserve">
+    <value>Process Information</value>
+    <comment>流程信息</comment>
+  </data>
+  <data name="Form设备信息自动手动切换ToolStripMenuItemText" xml:space="preserve">
+    <value>Auto/Manual</value>
+    <comment>自动/手动</comment>
+  </data>
+  <data name="Form设备信息设备日志ToolStripMenuItemText" xml:space="preserve">
+    <value>Operat Record</value>
+    <comment>运行记录</comment>
+  </data>
+  <data name="Form设备信息设备维护ToolStripMenuItemText" xml:space="preserve">
+    <value>Equipment Maintenance</value>
+    <comment>设备维护</comment>
+  </data>
+  <data name="Form设备信息重新作业ToolStripMenuItemText" xml:space="preserve">
+    <value>Re-Operation</value>
+    <comment>重新作业</comment>
+  </data>
+  <data name="Form设备信息预约手动ToolStripMenuItemText" xml:space="preserve">
+    <value>Reservation Manual</value>
+    <comment>预约手动</comment>
+  </data>
+  <data name="Form设备维护button1Text" xml:space="preserve">
+    <value>Confirm</value>
+    <comment>确认</comment>
+  </data>
+  <data name="Form设备维护label1Text" xml:space="preserve">
+    <value>Library Location Number:</value>
+    <comment>库位编号:</comment>
+  </data>
+  <data name="Form设备维护label2Text" xml:space="preserve">
+    <value>Maintenance Content:</value>
+    <comment>维护内容:</comment>
+  </data>
+  <data name="Form运行记录button1Text" xml:space="preserve">
+    <value>Search</value>
+    <comment>搜索</comment>
+  </data>
+  <data name="Form运行记录Col发生时间HeaderText" xml:space="preserve">
+    <value>Occurrence Time</value>
+    <comment>发生时间</comment>
+  </data>
+  <data name="Form运行记录Col设备编号HeaderText" xml:space="preserve">
+    <value>Device ID</value>
+    <comment>设备编号</comment>
+  </data>
+  <data name="Form运行记录Col错误内容HeaderText" xml:space="preserve">
+    <value>Error Content</value>
+    <comment>错误内容</comment>
+  </data>
+  <data name="Form运行记录Col错误类型HeaderText" xml:space="preserve">
+    <value>Error Type</value>
+    <comment>错误类型</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn10HeaderText" xml:space="preserve">
+    <value>Device ID</value>
+    <comment>设备编号</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn11HeaderText" xml:space="preserve">
+    <value>Error Type</value>
+    <comment>错误类型</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn12HeaderText" xml:space="preserve">
+    <value>Error Content</value>
+    <comment>错误内容</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn1HeaderText" xml:space="preserve">
+    <value>Occurrence Time</value>
+    <comment>发生时间</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn2HeaderText" xml:space="preserve">
+    <value>Device ID</value>
+    <comment>设备编号</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn3HeaderText" xml:space="preserve">
+    <value>Error Type</value>
+    <comment>错误类型</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn4HeaderText" xml:space="preserve">
+    <value>Error Content</value>
+    <comment>错误内容</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn5HeaderText" xml:space="preserve">
+    <value>Occurrence Time</value>
+    <comment>发生时间</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn6HeaderText" xml:space="preserve">
+    <value>Device ID</value>
+    <comment>设备编号</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn7HeaderText" xml:space="preserve">
+    <value>Error Type</value>
+    <comment>错误类型</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn8HeaderText" xml:space="preserve">
+    <value>Error Content</value>
+    <comment>错误内容</comment>
+  </data>
+  <data name="Form运行记录dataGridViewTextBoxColumn9HeaderText" xml:space="preserve">
+    <value>Occurrence Time</value>
+    <comment>发生时间</comment>
+  </data>
+  <data name="Form运行记录label1Text" xml:space="preserve">
+    <value>Device Select (ID):</value>
+    <comment>设备选择（ID）:</comment>
+  </data>
+  <data name="Form运行记录label2Text" xml:space="preserve">
+    <value>Selection Date:</value>
+    <comment>选择日期:</comment>
+  </data>
+  <data name="Form运行记录tabPage1Text" xml:space="preserve">
+    <value>Alarm Log</value>
+    <comment>报警日志</comment>
+  </data>
+  <data name="Form运行记录tabPage2Text" xml:space="preserve">
+    <value>Error Log</value>
+    <comment>错误日志</comment>
+  </data>
+  <data name="Form运行记录tabPage3Text" xml:space="preserve">
+    <value>MES Log</value>
+    <comment>MES日志</comment>
+  </data>
+  <data name="Form运行记录tabPage4Text" xml:space="preserve">
+    <value>Operation Log</value>
+    <comment>运行日志</comment>
+  </data>
+  <data name="ProgramAuto" xml:space="preserve">
+    <value>Auto</value>
+    <comment>自动</comment>
+  </data>
+  <data name="ProgramConnect" xml:space="preserve">
+    <value>Connect</value>
+    <comment>已连接</comment>
+  </data>
+  <data name="ProgramDisConnect" xml:space="preserve">
+    <value>DisConnect</value>
+    <comment>未连接</comment>
+  </data>
+  <data name="ProgramExit" xml:space="preserve">
+    <value>Exit</value>
+    <comment>退出</comment>
+  </data>
+  <data name="ProgramExitSystem" xml:space="preserve">
+    <value>Are you sure you want to exit the System?</value>
+    <comment>确定要退出系统吗？</comment>
+  </data>
+  <data name="ProgramIsAlreadyRunn" xml:space="preserve">
+    <value>An application with the same name is already Runn. Please do not Run multiple instances of this program simultaneously.The program will now exit.</value>
+    <comment>有一个和本程序相同的应用程序已经在运行，请不要同时运行多个本程序。这个程序即将退出。</comment>
+  </data>
+  <data name="ProgramManual" xml:space="preserve">
+    <value>Manual</value>
+    <comment>手动</comment>
+  </data>
+  <data name="UC关键器件运行记录button2Text" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>刷新</comment>
+  </data>
+  <data name="UC关键器件运行记录Button_ChannelOneText" xml:space="preserve">
+    <value>Current Channel Stats Clear</value>
+    <comment>当前通道统计清空</comment>
+  </data>
+  <data name="UC关键器件运行记录Button_DeviceAllText" xml:space="preserve">
+    <value>All Device Stats Clear</value>
+    <comment>全部设备统计清空</comment>
+  </data>
+  <data name="UC关键器件运行记录Button_DeviceOneText" xml:space="preserve">
+    <value>Current Device Stats Clear</value>
+    <comment>当前设备统计清空</comment>
+  </data>
+  <data name="UC关键器件运行记录Button_SaveNGCountText" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存</comment>
+  </data>
+  <data name="UC关键器件运行记录Column1HeaderText" xml:space="preserve">
+    <value>Work DateTime</value>
+    <comment>工作时间</comment>
+  </data>
+  <data name="UC关键器件运行记录groupBox探针Text" xml:space="preserve">
+    <value>Probe</value>
+    <comment>探针</comment>
+  </data>
+  <data name="UC关键器件运行记录groupBox逆变器Text" xml:space="preserve">
+    <value>Inverter</value>
+    <comment>逆变器</comment>
+  </data>
+  <data name="UC关键器件运行记录label1Text" xml:space="preserve">
+    <value>Device Channel NG Limit:</value>
+    <comment>设备通道NG上限:</comment>
+  </data>
+  <data name="UC关键器件运行记录label2Text" xml:space="preserve">
+    <value>Probe press/release Limit:</value>
+    <comment>探针压合次数上限:</comment>
+  </data>
+  <data name="UC关键器件运行记录label3Text" xml:space="preserve">
+    <value>Sle Channel NG Limit:</value>
+    <comment>单通道NG上限:</comment>
+  </data>
+  <data name="UC关键器件运行记录label4Text" xml:space="preserve">
+    <value>Probe Charge/DisCharge Limit:</value>
+    <comment>探针充放电次数上限:</comment>
+  </data>
+  <data name="UC关键器件运行记录label5Text" xml:space="preserve">
+    <value>Channel select</value>
+    <comment>通道选择:</comment>
+  </data>
+  <data name="UC关键器件运行记录label6Text" xml:space="preserve">
+    <value>Device select (ID)</value>
+    <comment>设备选择（ID）:</comment>
+  </data>
+  <data name="UC关键器件运行记录radioButton1Text" xml:space="preserve">
+    <value>Maintenance total times</value>
+    <comment>维修累计次数</comment>
+  </data>
+  <data name="UC关键器件运行记录radioButton_ContactLimitText" xml:space="preserve">
+    <value>Press/release times</value>
+    <comment>压合次数</comment>
+  </data>
+  <data name="UC关键器件运行记录radioButton_NGLimitText" xml:space="preserve">
+    <value>NG times</value>
+    <comment>NG次数</comment>
+  </data>
+  <data name="UC关键器件运行记录radioButton_RunLimitText" xml:space="preserve">
+    <value>Charge/DisCharge Count</value>
+    <comment>充放电次数</comment>
+  </data>
+  <data name="UC参数设置AutomaticMode" xml:space="preserve">
+    <value>Auto Mode</value>
+    <comment>自动模式</comment>
+  </data>
+  <data name="UC参数设置button8Text" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存</comment>
+  </data>
+  <data name="UC参数设置buttonAutoFlagText" xml:space="preserve">
+    <value>All Auto</value>
+    <comment>全部自动</comment>
+  </data>
+  <data name="UC参数设置ButtonCDC2Text" xml:space="preserve">
+    <value>All CDC2</value>
+    <comment>全部CDC2</comment>
+  </data>
+  <data name="UC参数设置ButtonCDC3Text" xml:space="preserve">
+    <value>All CDC3</value>
+    <comment>全部CDC3</comment>
+  </data>
+  <data name="UC参数设置buttonIPText" xml:space="preserve">
+    <value>All Save</value>
+    <comment>全部保存</comment>
+  </data>
+  <data name="UC参数设置buttonManualFlagText" xml:space="preserve">
+    <value>All Manual</value>
+    <comment>全部手动</comment>
+  </data>
+  <data name="UC参数设置buttonVacancyNoText" xml:space="preserve">
+    <value>All Disable</value>
+    <comment>全部不启用</comment>
+  </data>
+  <data name="UC参数设置buttonVacancyText" xml:space="preserve">
+    <value>All Enable</value>
+    <comment>全部启用</comment>
+  </data>
+  <data name="UC参数设置DeviceEnable" xml:space="preserve">
+    <value>Device Enable</value>
+    <comment>设备启用</comment>
+  </data>
+  <data name="UC参数设置groupBox7Text" xml:space="preserve">
+    <value>Limit Parameters</value>
+    <comment>限制参数</comment>
+  </data>
+  <data name="UC参数设置groupBox8Text" xml:space="preserve">
+    <value>Regular Configuration (Cannot be changed dur Operation)</value>
+    <comment>常规配置（设备运行中不能更改）</comment>
+  </data>
+  <data name="UC参数设置label10Text" xml:space="preserve">
+    <value>WaterCool Ki integration Coefficient:</value>
+    <comment>水冷 Ki 积分系数:</comment>
+  </data>
+  <data name="UC参数设置label11Text" xml:space="preserve">
+    <value>WaterCool Kd derivative Coefficient:</value>
+    <comment>水冷 Kd 微分系数:</comment>
+  </data>
+  <data name="UC参数设置label12Text" xml:space="preserve">
+    <value>WaterCool control period T (s):</value>
+    <comment>水冷 调节周期 T（s）:</comment>
+  </data>
+  <data name="UC参数设置label13Text" xml:space="preserve">
+    <value>WaterCool control target Temp (℃):</value>
+    <comment>水冷控制目标温度（℃）:</comment>
+  </data>
+  <data name="UC参数设置label14Text" xml:space="preserve">
+    <value>Smoke sensor Alarm Value (℃):</value>
+    <comment>烟雾传感器报警值(℃):</comment>
+  </data>
+  <data name="UC参数设置label7Text" xml:space="preserve">
+    <value>Mechanical Temp Alarm Value (℃):</value>
+    <comment>机构温度报警值(℃):</comment>
+  </data>
+  <data name="UC参数设置label8Text" xml:space="preserve">
+    <value>Battery Temp Alarm Value (℃):</value>
+    <comment>电池温度报警值(℃):</comment>
+  </data>
+  <data name="UC参数设置label9Text" xml:space="preserve">
+    <value>WaterCool Kp proportional Coefficient:</value>
+    <comment>水冷 Kp 比例系数:</comment>
+  </data>
+  <data name="UC映射设置Button_MappAutoText" xml:space="preserve">
+    <value>Auto</value>
+    <comment>自动</comment>
+  </data>
+  <data name="UC映射设置Button_MappSaveText" xml:space="preserve">
+    <value>Save</value>
+    <comment>保存</comment>
+  </data>
+  <data name="UC映射设置label1Text" xml:space="preserve">
+    <value>Cannot modify mapp dur device Operation</value>
+    <comment>不能在设备运行时修改映射。</comment>
+  </data>
+  <data name="UserControlAuxiliaryTestOCV测试OCVMaxTitleName" xml:space="preserve">
+    <value>02、OCV test voltage upper limit</value>
+    <comment>02、OCV测试电压上限</comment>
+  </data>
+  <data name="UserControlAuxiliaryTestOCV测试OCVMinTitleName" xml:space="preserve">
+    <value>01、Lower limit of OCV test voltage</value>
+    <comment>01、OCV测试电压下限</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试ContactTestTimeTitleName" xml:space="preserve">
+    <value>03、Time limit for contact testing</value>
+    <comment>03、接触测试时限</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试CurreDeviatePercentTitleName" xml:space="preserve">
+    <value>10、Current deviation percentage</value>
+    <comment>10、电流偏差百分比</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试DetectVoltTitleName" xml:space="preserve">
+    <value>04、Detection voltage</value>
+    <comment>04、检测电压</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试ProgramCurreTitleName" xml:space="preserve">
+    <value>02、Program controlled current</value>
+    <comment>02、程控电流</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试ProgramVoltTitleName" xml:space="preserve">
+    <value>01、Programmable voltage</value>
+    <comment>01、程控电压</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试ReverbVoltaTitleName" xml:space="preserve">
+    <value>05、Reverse voltage</value>
+    <comment>05、反接电压</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试VoltChangeMaxTitleName" xml:space="preserve">
+    <value>08、Maximum voltage change</value>
+    <comment>08、电压最大变化</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试VoltChangeMinTitleName" xml:space="preserve">
+    <value>09、Minimum voltage change</value>
+    <comment>09、电压最小变化</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试VoltLowerLimitTitleName" xml:space="preserve">
+    <value>07、Lower voltage limit</value>
+    <comment>07、电压下限</comment>
+  </data>
+  <data name="UserControlAuxiliaryTest接触测试VoltUpperLimitTitleName" xml:space="preserve">
+    <value>06、Upper voltage limit</value>
+    <comment>06、电压上限</comment>
+  </data>
+  <data name="UserControlProtect充电保护CapacityUpperLimitSetToolTip" xml:space="preserve">
+    <value>capacity during charging exceeds the set protection value; (The capacity of each step is calculated from 0, indicating how much capacity is stored during charging); Unit: mAh</value>
+    <comment>充电时容量&gt;设定的保护值时起保护；（每个步次的容量从0开始计算，充电时表示储存了多少容量）；单位：mAh</comment>
+  </data>
+  <data name="UserControlProtect充电保护CapacityUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;03&gt;Charging upper limit capacity</value>
+    <comment>&lt;03&gt;充电上限容量</comment>
+  </data>
+  <data name="UserControlProtect充电保护CCLackTimeSetToolTip" xml:space="preserve">
+    <value>Only check in CCCV steps and start timing from the starting time of the current step. If the charging time in the constant current stage (CC to CV time)&lt;the set time, it will be protected; Invalid when it is 0; Unit: s</value>
+    <comment>只在CCCV步次中检查，从当前步次起始时刻开始计时，如果【恒流阶段的充电时间（CC转CV时刻）&lt;设定时刻】则保护；为0时无效；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护CCLackTimeTitleName" xml:space="preserve">
+    <value>&lt;05&gt;CC missing time inspection</value>
+    <comment>&lt;05&gt;CC缺时检查</comment>
+  </data>
+  <data name="UserControlProtect充电保护CCOverTimeSetToolTip" xml:space="preserve">
+    <value>Only check in CCCV steps, start timing from the starting time of the current step, and protect if the step is still in the constant current charging stage when the set time is reached; Invalid when it is 0; Unit: s</value>
+    <comment>只在CCCV步次中检查，从当前步次起始时刻开始计时，如果到达设定时刻时步次仍处于恒流充电阶段则保护；为0时无效；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护CCOverTimeTitleName" xml:space="preserve">
+    <value>&lt;06&gt;CC timeout check</value>
+    <comment>&lt;06&gt;CC超时检查</comment>
+  </data>
+  <data name="UserControlProtect充电保护CheckTimeSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set inspection time, if the current battery voltage is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Invalid when it is 0; Unit: s</value>
+    <comment>从当前步次开始时刻算起，到达设定的检查时刻，如果【当前电池电压&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；为0时无效；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护CheckTimeTitleName" xml:space="preserve">
+    <value>&lt;07&gt;Charging inspection time</value>
+    <comment>&lt;07&gt;充电检查检查时刻</comment>
+  </data>
+  <data name="UserControlProtect充电保护CheckVoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set inspection time, if the current battery voltage is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的检查时刻，如果【当前电池电压&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护CheckVoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;08&gt;Charging check lower limit voltage</value>
+    <comment>&lt;08&gt;充电检查下限电压</comment>
+  </data>
+  <data name="UserControlProtect充电保护ConstVoltDeviateSetToolTip" xml:space="preserve">
+    <value>At constant voltage, protection is activated when the voltage&gt;(constant voltage value+deviation) or&lt;(constant voltage value - deviation); Unit: mV</value>
+    <comment>恒压时，【电压&gt;（恒压值+偏差）或者&lt;(恒压值-偏差)】时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护ConstVoltDeviateTitleName" xml:space="preserve">
+    <value>&lt;19&gt;Voltage deviation range during constant voltage charging</value>
+    <comment>&lt;19&gt;充电恒压时电压偏差范围</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreLowerLimitSetToolTip" xml:space="preserve">
+    <value>If the current is less than the set protection value during charging, protection will be activated; Unit: mA</value>
+    <comment>充电时如果【电流&lt;设定保护值】时起保护；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;09&gt;Lower limit of charging current</value>
+    <comment>&lt;09&gt;充电电流下限</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseContinueCountSetToolTip" xml:space="preserve">
+    <value>In the current step, when the current rises continuously to the set number of times, the protection is activated and only judged in the constant voltage stage; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电流上升连续达到设定次数时起保护，只在恒压阶段判断；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseContinueCountTitleName" xml:space="preserve">
+    <value>&lt;22&gt;Continuous times of constant voltage current rise</value>
+    <comment>&lt;22&gt;恒压电流上升连续次数</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseCumulateCountSetToolTip" xml:space="preserve">
+    <value>In the current step, when the cumulative number of current increases reaches the set number of times, the protection is activated and only judged in the constant voltage stage; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电流上升次数累计达到设定次数时起保护，只在恒压阶段判断；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseCumulateCountTitleName" xml:space="preserve">
+    <value>&lt;21&gt;Accumulated times of constant voltage current rise</value>
+    <comment>&lt;21&gt;恒压电流上升累计次数</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseLimitSetToolTip" xml:space="preserve">
+    <value>In the current step, when the cumulative number of current increases reaches the set number of times, the protection is activated and only judged in the constant voltage stage; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电流上升次数累计达到设定次数时起保护，只在恒压阶段判断；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreRiseLimitTitleName" xml:space="preserve">
+    <value>&lt;20&gt;Rise amplitude of constant voltage current</value>
+    <comment>&lt;20&gt;恒压电流上升上升幅度</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreSwellSetToolTip" xml:space="preserve">
+    <value>When the voltage is constant, detect whether there is a sudden increase in current, and judge whether the current has a sudden increase based on the adjacent two sampling currents: if 【 (current previous current)&gt;set amplitude 】, it represents a sudden increase in current, and protection is activated at this time; Unit: mA</value>
+    <comment>恒压时检测电流是否有突升，根据相邻两次采样电流来判断电流是否突升：如果【（当前电流–前次电流）&gt;设定幅度】，则代表电流突升，此时起保护；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect充电保护CurreSwellTitleName" xml:space="preserve">
+    <value>&lt;28&gt;Sudden increase in current at constant voltage</value>
+    <comment>&lt;28&gt;恒压时电流突升</comment>
+  </data>
+  <data name="UserControlProtect充电保护NoVoltRiseLimitSetToolTip" xml:space="preserve">
+    <value>In the constant current charging stage, it is judged that the voltage value is taken based on the set interval time. If [(current voltage - previous voltage)&lt;the set value], it is considered that the charging is abnormal and needs protection; Unit: mV</value>
+    <comment>在恒流充电阶段判断：根据设定的间隔时间取电压值，如果【（当前电压-前次电压）&lt;设定值】时，则认为充电异常需要保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护NoVoltRiseLimitTitleName" xml:space="preserve">
+    <value>&lt;27&gt;Charging voltage not increasing voltage amplitude</value>
+    <comment>&lt;27&gt;充电电压未上升电压幅值</comment>
+  </data>
+  <data name="UserControlProtect充电保护NoVoltRiseTimeSetToolTip" xml:space="preserve">
+    <value>In the constant current charging stage, it is judged that the voltage value is taken based on the set interval time. If [(current voltage - previous voltage)&lt;the set value], it is considered that the charging is abnormal and needs protection; Unit: s</value>
+    <comment>在恒流充电阶段判断：根据设定的间隔时间取电压值，如果【（当前电压-前次电压）&lt;设定值】时，则认为充电异常需要保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护NoVoltRiseTimeTitleName" xml:space="preserve">
+    <value>&lt;26&gt;Charging voltage not rising interval time</value>
+    <comment>&lt;26&gt;充电电压未上升间隔时间</comment>
+  </data>
+  <data name="UserControlProtect充电保护SwellVoltRiseLimitSetToolTip" xml:space="preserve">
+    <value>In the constant current charging stage, it is judged that the voltage value is taken based on the set interval time. If [(current voltage - previous voltage)&gt;the set value], it is considered that the charging is abnormal and needs protection; Unit: mV</value>
+    <comment>在恒流充电阶段判断：根据设定的间隔时间取电压值，如果【（当前电压-前次电压）&gt;设定值】时，则认为充电异常需要保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护SwellVoltRiseLimitTitleName" xml:space="preserve">
+    <value>&lt;30&gt;Charging voltage over rise voltage amplitude</value>
+    <comment>&lt;30&gt;充电电压过上升电压幅值</comment>
+  </data>
+  <data name="UserControlProtect充电保护SwellVoltRiseTimeSetToolTip" xml:space="preserve">
+    <value>In the constant current charging stage, it is judged that the voltage value is taken based on the set interval time. If [(current voltage - previous voltage)&gt;the set value], it is considered that the charging is abnormal and needs protection; Unit: s</value>
+    <comment>在恒流充电阶段判断：根据设定的间隔时间取电压值，如果【（当前电压-前次电压）&gt;设定值】时，则认为充电异常需要保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护SwellVoltRiseTimeTitleName" xml:space="preserve">
+    <value>&lt;29&gt;Charging voltage over rise interval time</value>
+    <comment>&lt;29&gt;充电电压过上升间隔时间</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1TimeSetToolTip" xml:space="preserve">
+    <value>Unit: s</value>
+    <comment>单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1TimeTitleName" xml:space="preserve">
+    <value>&lt;10&gt;T1 moment</value>
+    <comment>&lt;10&gt;T1时刻</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1VoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T1 time, if the current battery voltage is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的T1时刻，如果【当前电池电压&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1VoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;12&gt;T1 voltage lower limit</value>
+    <comment>&lt;12&gt;T1电压下限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1VoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T1 time, if the current battery voltage&gt;the set protection value, protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的T1时刻，如果【当前电池电压&gt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护T1VoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;11&gt;T1 voltage upper limit</value>
+    <comment>&lt;11&gt;T1电压上限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2TimeSetToolTip" xml:space="preserve">
+    <value>Unit: s</value>
+    <comment>单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2TimeTitleName" xml:space="preserve">
+    <value>&lt;13&gt;T2 moment</value>
+    <comment>&lt;13&gt;T2时刻</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2VoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T2 time, if the current battery voltage is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的T2时刻，如果【当前电池电压&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2VoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;15&gt;T2 voltage lower limit</value>
+    <comment>&lt;15&gt;T2电压下限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2VoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T2 time, if the current battery voltage is greater than the set protection value, protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的T2时刻，如果【当前电池电压&gt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护T2VoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;14&gt;T2 voltage upper limit</value>
+    <comment>&lt;14&gt;T2电压上限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5CurreLowerLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T5 time, if the current is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Unit: mA</value>
+    <comment>从当前步次开始时刻算起，到达设定的T5时刻，如果【当前电流&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5CurreLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;18&gt;T5 lower current limit</value>
+    <comment>&lt;18&gt;T5电流下限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5CurreUpperLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T5 time, if the 【 current&gt;set protection value 】 starts protection, each process will only be checked in the first charging step; Unit: mA</value>
+    <comment>从当前步次开始时刻算起，到达设定的T5时刻，如果【当前电流&gt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5CurreUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;17&gt;T5 current upper limit</value>
+    <comment>&lt;17&gt;T5电流上限</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5TimeSetToolTip" xml:space="preserve">
+    <value>Unit: s</value>
+    <comment>单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护T5TimeTitleName" xml:space="preserve">
+    <value>&lt;16&gt;T5 moment</value>
+    <comment>&lt;16&gt;T5时刻</comment>
+  </data>
+  <data name="UserControlProtect充电保护TimeLimitSetToolTip" xml:space="preserve">
+    <value>The limit time for charging, which is protected when the set value is exceeded; Unit: s</value>
+    <comment>充电的限制时间，超过设定值时起保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect充电保护TimeLimitTitleName" xml:space="preserve">
+    <value>&lt;04&gt;Charging limit time</value>
+    <comment>&lt;04&gt;充电限制时间</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropContinueCountSetToolTip" xml:space="preserve">
+    <value>In the current step, protection is activated when the voltage drops continuously for a set number of times; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电压下降连续次数达到设定次数时起保护；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropContinueCountTitleName" xml:space="preserve">
+    <value>&lt;25&gt;Number of consecutive drops in charging voltage</value>
+    <comment>&lt;25&gt;充电电压下降连续次数</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropCumulateCountSetToolTip" xml:space="preserve">
+    <value>In the current step, protection is activated when the cumulative number of voltage drops reaches the set number; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电压下降次数累计达到设定次数时起保护；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropCumulateCountTitleName" xml:space="preserve">
+    <value>&lt;24&gt;Accumulated number of charging voltage drops</value>
+    <comment>&lt;24&gt;充电电压下降累计次数</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropLimitSetToolTip" xml:space="preserve">
+    <value>Detect whether there is a voltage drop during the charging process, and determine whether there is a voltage drop based on the adjacent two sampling voltages. If [(previous voltage - current voltage)&gt;set amplitude], it represents a voltage drop and is recorded as 1 time; Unit: mV</value>
+    <comment>检测充电过程中是否有电压下降，根据相邻两次采样电压来判断是否有电压下降发生，如果【（前次电压–当前电压）&gt;设定幅度】，则代表电压下降，记为1次；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltDropLimitTitleName" xml:space="preserve">
+    <value>&lt;23&gt;Charging voltage decrease amplitude</value>
+    <comment>&lt;23&gt;充电电压下降幅度</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start time of the current step and reaching the set T1 time, if the current battery voltage is less than the set protection value, the protection will start. Each process will only be checked in the first charging step; Unit: mV</value>
+    <comment>从当前步次开始时刻算起，到达设定的T1时刻，如果【当前电池电压&lt;设定保护值】时起保护，每个流程只在第一个充电步次中检查；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;02&gt;Charging lower limit voltage</value>
+    <comment>&lt;02&gt;充电下限电压</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Protection starts when the battery voltage during charging exceeds the set protection value; Unit: mV</value>
+    <comment>充电时电池电压&gt;设定保护值时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect充电保护VoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;01&gt;Charging upper limit voltage</value>
+    <comment>&lt;01&gt;充电上限电压</comment>
+  </data>
+  <data name="UserControlProtect放电保护CapacityLowerLimitSetToolTip" xml:space="preserve">
+    <value>At the end of discharge, it is judged that if the discharge capacity is less than the set protection value, protection will be activated; (The capacity of each step is calculated from 0, indicating how much capacity has been released during discharge); Unit: mAh</value>
+    <comment>在放电结束时判断，如果【放电容量&lt;设定保护值】时起保护；（每个步次的容量从0开始计算，放电时表示放掉了多少容量）；单位：mAh</comment>
+  </data>
+  <data name="UserControlProtect放电保护CapacityLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;34&gt;Lower discharge limit capacity</value>
+    <comment>&lt;34&gt;放电下限容量</comment>
+  </data>
+  <data name="UserControlProtect放电保护CapacityUpperLimitSetToolTip" xml:space="preserve">
+    <value>Protection starts when the discharge capacity is greater than the set protection value; (The capacity of each step is calculated from 0, indicating how much capacity is stored during charging); Unit: mAh</value>
+    <comment>放电时【容量&gt;设定的保护值】时起保护；（每个步次的容量从0开始计算，充电时表示储存了多少容量）；单位：mAh</comment>
+  </data>
+  <data name="UserControlProtect放电保护CapacityUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;35&gt;Discharge upper limit capacity</value>
+    <comment>&lt;35&gt;放电上限容量</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckTimeSetToolTip" xml:space="preserve">
+    <value>Start timing from the starting time of the current step, check the voltage value after reaching the set time, and protect if it is below the set lower limit or exceeds the set upper limit; Unit: s</value>
+    <comment>从当前步次起始时刻开始计时，到达设定时刻后检查电压值，如果低于设定下限或超过设定上限则保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckTimeTitleName" xml:space="preserve">
+    <value>&lt;40&gt;Discharge inspection timing</value>
+    <comment>&lt;40&gt;放电检查检查时刻</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckVoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>Start timing from the starting time of the current step, check the voltage value after reaching the set time, and protect if it is below the set lower limit or exceeds the set upper limit; Unit: mV</value>
+    <comment>从当前步次起始时刻开始计时，到达设定时刻后检查电压值，如果低于设定下限或超过设定上限则保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckVoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;41&gt;Discharge check voltage lower limit</value>
+    <comment>&lt;41&gt;放电检查电压下限</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckVoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Start timing from the starting time of the current step, check the voltage value after reaching the set time, and protect if it is below the set lower limit or exceeds the set upper limit; Unit: mV</value>
+    <comment>从当前步次起始时刻开始计时，到达设定时刻后检查电压值，如果低于设定下限或超过设定上限则保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护CheckVoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;42&gt;Discharge check voltage upper limit</value>
+    <comment>&lt;42&gt;放电检查电压上限</comment>
+  </data>
+  <data name="UserControlProtect放电保护ConnectVoltDeviateSetToolTip" xml:space="preserve">
+    <value>Unit: mV</value>
+    <comment>单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护ConnectVoltDeviateTitleName" xml:space="preserve">
+    <value>&lt;47&gt;Total voltage deviation in series</value>
+    <comment>&lt;47&gt;串联总电压偏差</comment>
+  </data>
+  <data name="UserControlProtect放电保护ConnectVoltToolargeSetToolTip" xml:space="preserve">
+    <value>Unit: mV</value>
+    <comment>单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护ConnectVoltToolargeTitleName" xml:space="preserve">
+    <value>&lt;48&gt;Series total voltage overvoltage</value>
+    <comment>&lt;48&gt;串联总电压过压</comment>
+  </data>
+  <data name="UserControlProtect放电保护CurreDeviateSetToolTip" xml:space="preserve">
+    <value>If [(current value - constant current value)&gt;set protection value] during discharge, protection will be activated; Unit: mA</value>
+    <comment>放电时如果【（电流值-恒流值）&gt;设定保护值】时起保护；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect放电保护CurreDeviateTitleName" xml:space="preserve">
+    <value>&lt;39&gt;Deviation in discharge current</value>
+    <comment>&lt;39&gt;放电电流上偏差</comment>
+  </data>
+  <data name="UserControlProtect放电保护NoVoltDropLimitSetToolTip" xml:space="preserve">
+    <value>In the constant current discharge stage judgment: Take the voltage value based on the set interval time. If [(previous voltage current voltage)&lt;the set value], it is considered that the discharge is abnormal and needs protection; Unit: mV</value>
+    <comment>在恒流放电阶段判断：根据设定的间隔时间取电压值，如果【（前次电压-当前电压）&lt;设定值】时，则认为放电异常需要保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护NoVoltDropLimitTitleName" xml:space="preserve">
+    <value>&lt;44&gt;Discharge voltage not decreasing voltage amplitude</value>
+    <comment>&lt;44&gt;放电电压未下降电压幅值</comment>
+  </data>
+  <data name="UserControlProtect放电保护NoVoltDropTimeSetToolTip" xml:space="preserve">
+    <value>In the constant current discharge stage judgment: Take the voltage value based on the set interval time. If [(previous voltage current voltage)&lt;the set value], it is considered that the discharge is abnormal and needs protection; Unit: s</value>
+    <comment>在恒流放电阶段判断：根据设定的间隔时间取电压值，如果【（前次电压-当前电压）&lt;设定值】时，则认为放电异常需要保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect放电保护NoVoltDropTimeTitleName" xml:space="preserve">
+    <value>&lt;43&gt;Discharge voltage not decreasing interval time</value>
+    <comment>&lt;43&gt;放电电压未下降间隔时间</comment>
+  </data>
+  <data name="UserControlProtect放电保护SwellVoltDropLimitSetToolTip" xml:space="preserve">
+    <value>In the constant current discharge stage judgment: Take the voltage value based on the set interval time. If [(previous voltage current voltage)&gt;the set value], it is considered that the discharge is abnormal and needs protection; Unit: mV</value>
+    <comment>在恒流放电阶段判断：根据设定的间隔时间取电压值，如果【（前次电压-当前电压）&gt;设定值】时，则认为放电异常需要保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护SwellVoltDropLimitTitleName" xml:space="preserve">
+    <value>&lt;46&gt;Discharge voltage over drop voltage amplitude</value>
+    <comment>&lt;46&gt;放电电压过下降电压幅值</comment>
+  </data>
+  <data name="UserControlProtect放电保护SwellVoltDropTimeSetToolTip" xml:space="preserve">
+    <value>In the constant current discharge stage judgment: Take the voltage value based on the set interval time. If [(previous voltage current voltage)&gt;the set value], it is considered that the discharge is abnormal and needs protection; Unit: s</value>
+    <comment>在恒流放电阶段判断：根据设定的间隔时间取电压值，如果【（前次电压-当前电压）&gt;设定值】时，则认为放电异常需要保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect放电保护SwellVoltDropTimeTitleName" xml:space="preserve">
+    <value>&lt;45&gt;Discharge voltage over drop interval time</value>
+    <comment>&lt;45&gt;放电电压过下降间隔时间</comment>
+  </data>
+  <data name="UserControlProtect放电保护TimeLimitSetToolTip" xml:space="preserve">
+    <value>The limit time for discharge, which is protected when the set value is exceeded; Unit: s</value>
+    <comment>放电的限制时间，超过设定值时起保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect放电保护TimeLimitTitleName" xml:space="preserve">
+    <value>&lt;33&gt;Discharge limit time</value>
+    <comment>&lt;33&gt;放电限制时间</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>The lower limit value of the voltage during discharge, which is protected when the battery voltage is less than the set protection value during discharge; Unit: mV</value>
+    <comment>放电时电压的下限值，放电时【电池电压&lt;设定保护值】时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;31&gt;Lower discharge limit voltage</value>
+    <comment>&lt;31&gt;放电下限电压</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseContinueCountSetToolTip" xml:space="preserve">
+    <value>In the current step, when the voltage rises continuously for a set number of times, protection is activated; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电压上升连续次数达到设定次数时起保护；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseContinueCountTitleName" xml:space="preserve">
+    <value>&lt;38&gt;Number of consecutive increases in discharge voltage</value>
+    <comment>&lt;38&gt;放电电压上升连续次数</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseCumulateCountSetToolTip" xml:space="preserve">
+    <value>In the current step, protection is activated when the cumulative number of voltage rises reaches the set number; This protection will not work when the number of times is 0</value>
+    <comment>当前步次中，当电压上升次数累计达到设定次数时起保护；次数为0时此项保护不起作用</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseCumulateCountTitleName" xml:space="preserve">
+    <value>&lt;37&gt;Accumulated times of discharge voltage rise</value>
+    <comment>&lt;37&gt;放电电压上升累计次数</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseLimitSetToolTip" xml:space="preserve">
+    <value>Detect whether there is a voltage rise during the discharge process, and determine whether there is a voltage rise based on the adjacent two sampling voltages. If [(current voltage - previous voltage)&gt;set amplitude], it represents a voltage rise, recorded as 1 time; Unit: mV</value>
+    <comment>检测放电过程中是否有电压上升，根据相邻两次采样电压来判断是否有电压上升发生，如果【（当前电压–前次电压）&gt;设定幅度】，则代表电压上升，记为1次；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltRiseLimitTitleName" xml:space="preserve">
+    <value>&lt;36&gt;Rise amplitude of discharge voltage</value>
+    <comment>&lt;36&gt;放电电压上升上升幅度</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Protection is activated when the battery voltage is greater than the set protection value during discharge; Unit: mV</value>
+    <comment>放电时【电池电压&gt;设定保护值】时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect放电保护VoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;32&gt;Discharge upper limit voltage</value>
+    <comment>&lt;32&gt;放电上限电压</comment>
+  </data>
+  <data name="UserControlProtect通用保护CapacityUpperLimitSetToolTip" xml:space="preserve">
+    <value>The upper limit of the capacity in the process, if it exceeds, it will be protected; Unit: mAh</value>
+    <comment>流程中容量的上限，超过则起保护；单位：mAh</comment>
+  </data>
+  <data name="UserControlProtect通用保护CapacityUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;62&gt;Capacity limit</value>
+    <comment>&lt;62&gt;容量上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellTempLowerLimitSetToolTip" xml:space="preserve">
+    <value>If the battery Temp is lower than the set protection value, it will be protected; Unit: ℃</value>
+    <comment>如果电池温度低于设置的保护值时起保护；单位：℃</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellTempLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;64&gt;Lower limit of battery Temp</value>
+    <comment>&lt;64&gt;电池温度下限</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellTempUpperLimitSetToolTip" xml:space="preserve">
+    <value>If the battery Temp is higher than the set protection value, it will be protected; Unit: ℃</value>
+    <comment>如果电池温度高于设置的保护值时起保护；单位：℃</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellTempUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;65&gt;Battery Temp upper limit</value>
+    <comment>&lt;65&gt;电池温度上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellUnderVoltSetToolTip" xml:space="preserve">
+    <value>When the battery voltage in the process is less than the set protection value, protection is activated; Unit: mV</value>
+    <comment>流程中当电池电压&lt;设置的保护值时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellUnderVoltTitleName" xml:space="preserve">
+    <value>&lt;59&gt;Battery voltage undervoltage</value>
+    <comment>&lt;59&gt;电池电压欠压</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellVoltToolargeSetToolTip" xml:space="preserve">
+    <value>When the battery voltage in the process is greater than the set protection value, protection is activated; Unit: mV</value>
+    <comment>流程中当电池电压&gt;设置的保护值时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护CellVoltToolargeTitleName" xml:space="preserve">
+    <value>&lt;50&gt;Battery voltage overvoltage</value>
+    <comment>&lt;50&gt;电池电压过压</comment>
+  </data>
+  <data name="UserControlProtect通用保护ChargeDisCellVoltLineDvalueSetToolTip" xml:space="preserve">
+    <value>When the difference between the current line voltage and the battery voltage (absolute value) is greater than the set protection value during charging and discharging, protection is activated; Unit: mV</value>
+    <comment>充放电时，【电流线电压与电池电压的差值（绝对值）&gt;设定保护值时起保护】；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护ChargeDisCellVoltLineDvalueTitleName" xml:space="preserve">
+    <value>&lt;53&gt;Voltage difference during charging and discharging</value>
+    <comment>&lt;53&gt;充放电时电压差值</comment>
+  </data>
+  <data name="UserControlProtect通用保护ContactIRSetToolTip" xml:space="preserve">
+    <value>If [current&lt;3A] (adjusted according to the actual project), the contact impedance is 0, otherwise [contact impedance=(line voltage - battery voltage)/current], protection is activated when the contact impedance&gt;the set protection value; Unit: m Ω</value>
+    <comment>如果【电流&lt;3A】（根据实际项目调整）时，接触阻抗为0，否则【接触阻抗=（线电压-电池电压）/电流】，当接触阻抗&gt;设定保护值时起保护；单位：mΩ</comment>
+  </data>
+  <data name="UserControlProtect通用保护ContactIRTitleName" xml:space="preserve">
+    <value>&lt;63&gt;Contact impedance</value>
+    <comment>&lt;63&gt;接触阻抗</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreDeviateLowerSetToolTip" xml:space="preserve">
+    <value>In the constant current stage, protection (0xDF) is activated when the current is&lt;(constant current value - lower deviation value); Unit: mA</value>
+    <comment>在恒流阶段，当【电流&lt;（恒流值-下偏差值）】时起保护（0xDF）；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreDeviateLowerTitleName" xml:space="preserve">
+    <value>&lt;76&gt;Deviation under constant current</value>
+    <comment>&lt;76&gt;恒流下偏差</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreDeviateUpperSetToolTip" xml:space="preserve">
+    <value>In the constant current stage, protection (0xDB) is activated when [current&gt;(constant current value+upper deviation value)]; Unit: mA</value>
+    <comment>在恒流阶段，当【电流&gt;（恒流值+上偏差值）】时起保护（0xDB）；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreDeviateUpperTitleName" xml:space="preserve">
+    <value>&lt;75&gt;Constant current upper deviation</value>
+    <comment>&lt;75&gt;恒流上偏差</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreFluctuSetToolTip" xml:space="preserve">
+    <value>In the constant current stage, protection (0xDB) is activated when [current&gt;(constant current value+fluctuation value)]; In the constant current stage, protection (0xDF) is activated when the current&lt;(constant current value - fluctuation value); Unit: mA</value>
+    <comment>在恒流阶段，当【电流&gt;（恒流值+波动值）】时起保护（0xDB）；在恒流阶段，当【电流&lt;（恒流值-波动值）】时起保护（0xDF）；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreFluctuTitleName" xml:space="preserve">
+    <value>&lt;72&gt;Constant current fluctuation</value>
+    <comment>&lt;72&gt;恒流波动</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreIntervalFluctuSetToolTip" xml:space="preserve">
+    <value>During the constant current stage inspection, the current value is taken based on the set interval time. If the absolute value of the difference between two adjacent times is greater than the set fluctuation value, the protection is triggered, and it is invalid when it is 0; Unit: mA</value>
+    <comment>在恒流阶段检查，根据设定的间隔时间取电流值，如果【相邻两次差值的绝对值&gt;设定波动值】时则保护，为0时无效；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreIntervalFluctuTimeSetToolTip" xml:space="preserve">
+    <value>During the constant current stage inspection, the current value is taken based on the set interval time. If the absolute value of the difference between two adjacent times is greater than the set fluctuation value, the protection is triggered, and it is invalid when it is 0; Unit: s</value>
+    <comment>在恒流阶段检查，根据设定的间隔时间取电流值，如果【相邻两次差值的绝对值&gt;设定波动值】时则保护，为0时无效；单位：s</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreIntervalFluctuTimeTitleName" xml:space="preserve">
+    <value>&lt;73&gt;Constant current interval fluctuation interval time</value>
+    <comment>&lt;73&gt;恒流间隔波动间隔时间</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreIntervalFluctuTitleName" xml:space="preserve">
+    <value>&lt;74&gt;Constant current interval fluctuation value</value>
+    <comment>&lt;74&gt;恒流间隔波动波动值</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreToolargeSetToolTip" xml:space="preserve">
+    <value>When the current exceeds the set protection value in the process, protection is activated; Unit: mA</value>
+    <comment>流程中当电流&gt;设置的保护值时起保护；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护CurreToolargeTitleName" xml:space="preserve">
+    <value>&lt;49&gt;Battery current overcurrent</value>
+    <comment>&lt;49&gt;电池电流过流</comment>
+  </data>
+  <data name="UserControlProtect通用保护EmgStopVoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Global voltage upper limit protection, which starts when the battery voltage is greater than or equal to the set protection value, and all channels stop working, with a State of paused; Unit: mV</value>
+    <comment>全局电压上限保护，当电池电压&gt;等于设定的保护值时起保护，并且所有通道停止工作，状态为暂停；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护EmgStopVoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;58&gt;Upper limit of emergency stop voltage</value>
+    <comment>&lt;58&gt;急停电压上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护InsteadVoltSetToolTip" xml:space="preserve">
+    <value>Minimum value of reverse voltage, below which protection is provided; Unit: mV</value>
+    <comment>反接电压最小值，低于则保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护InsteadVoltTitleName" xml:space="preserve">
+    <value>&lt;60&gt;Reverse voltage</value>
+    <comment>&lt;60&gt;反接电压</comment>
+  </data>
+  <data name="UserControlProtect通用保护LineVoltToolargeSetToolTip" xml:space="preserve">
+    <value>When the line voltage in the process is greater than the set protection value, protection is activated; Unit: mV</value>
+    <comment>流程中当线电压&gt;设定保护值时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护LineVoltToolargeTitleName" xml:space="preserve">
+    <value>&lt;51&gt;Current line voltage overvoltage</value>
+    <comment>&lt;51&gt;电流线电压过压</comment>
+  </data>
+  <data name="UserControlProtect通用保护PosTempUpperLimitSetToolTip" xml:space="preserve">
+    <value>If the Temp of the channel board is higher than the set protection value, protection will be activated; Unit: ℃</value>
+    <comment>如果通道板温度高于设置的保护值时起保护；单位：℃</comment>
+  </data>
+  <data name="UserControlProtect通用保护PosTempUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;66&gt;Upper Temp limit of channel board</value>
+    <comment>&lt;66&gt;通道板温度上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTCellLineVoltDvalueSetToolTip" xml:space="preserve">
+    <value>During sleep, when the difference between the current line voltage and the battery voltage (absolute value) is greater than the set protection value, protection is activated; Unit: mV</value>
+    <comment>休眠时，【电流线电压与电池电压的差值（绝对值）&gt;设定保护值时起保护】；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTCellLineVoltDvalueTitleName" xml:space="preserve">
+    <value>&lt;54&gt;Sleep voltage difference</value>
+    <comment>&lt;54&gt;休眠电压差值</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTCurreUpperLimitSetToolTip" xml:space="preserve">
+    <value>&lt;52&gt;In the sleep step, if the current is greater than the set protection value, protection will be activated; Unit: mA</value>
+    <comment>在休眠步次中，如果电流&gt;设定保护值时起保护；单位：mA</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTCurreUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;52&gt;Sleep circuit current</value>
+    <comment>&lt;52&gt;休眠回路电流</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTVoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>During sleep, if the voltage exceeds the set value, it will be protected; Unit: mV</value>
+    <comment>休眠时，电压超过设定值则保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护RESTVoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;55&gt;Upper limit of sleep voltage</value>
+    <comment>&lt;55&gt;休眠电压上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护TempRiseTimeSetToolTip" xml:space="preserve">
+    <value>Take the battery Temp according to the set interval time. If [(current battery Temp - previous battery Temp)&gt;the set value], it is considered that the battery Temp rising speed is abnormal and needs protection; Unit: s</value>
+    <comment>根据设定的间隔时间取电池温度，如果【（当前电池温度-前次电池温度）&gt;设定值】时，则认为电池温度上升速度异常需要保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect通用保护TempRiseTimeTitleName" xml:space="preserve">
+    <value>&lt;67&gt;Temp rise rate interval time</value>
+    <comment>&lt;67&gt;温升速率间隔时间</comment>
+  </data>
+  <data name="UserControlProtect通用保护TempRiseValueSetToolTip" xml:space="preserve">
+    <value>Take the battery Temp according to the set interval time. If [(current battery Temp - previous battery Temp)&gt;the set value], it is considered that the battery Temp rising speed is abnormal and needs protection; Unit: ℃</value>
+    <comment>根据设定的间隔时间取电池温度，如果【（当前电池温度-前次电池温度）&gt;设定值】时，则认为电池温度上升速度异常需要保护；单位：℃</comment>
+  </data>
+  <data name="UserControlProtect通用保护TempRiseValueTitleName" xml:space="preserve">
+    <value>&lt;68&gt;Temp rise rate Battery Temp amplitude</value>
+    <comment>&lt;68&gt;温升速率电池温度幅值</comment>
+  </data>
+  <data name="UserControlProtect通用保护TTimeSetToolTip" xml:space="preserve">
+    <value>Starting from the beginning of the process; Unit: s</value>
+    <comment>从流程开始时刻算起；单位：s</comment>
+  </data>
+  <data name="UserControlProtect通用保护TTimeTitleName" xml:space="preserve">
+    <value>&lt;69&gt;Time T</value>
+    <comment>&lt;69&gt;T时刻</comment>
+  </data>
+  <data name="UserControlProtect通用保护TVoltLowerLimitSetToolTip" xml:space="preserve">
+    <value>From the beginning of the process to the set T-time, if the current battery voltage is less than the set protection value, protection will start; Unit: mV</value>
+    <comment>从流程开始时刻算起，到达设定的T时刻，如果【当前电池电压&lt;设定保护值】时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护TVoltLowerLimitTitleName" xml:space="preserve">
+    <value>&lt;71&gt;Lower limit of voltage at time T&lt;71&gt;</value>
+    <comment>&lt;71&gt;T时刻电压下限</comment>
+  </data>
+  <data name="UserControlProtect通用保护TVoltUpperLimitSetToolTip" xml:space="preserve">
+    <value>Starting from the start of the process and reaching the set T-time, if the current battery voltage is greater than the set protection value, protection will start; Unit: mV</value>
+    <comment>从流程开始时刻算起，到达设定的T时刻，如果【当前电池电压&gt;设定保护值】时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护TVoltUpperLimitTitleName" xml:space="preserve">
+    <value>&lt;70&gt;Voltage upper limit at time T&lt;70&gt;</value>
+    <comment>&lt;70&gt;T时刻电压上限</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltIntervalFluctuSetToolTip" xml:space="preserve">
+    <value>In the sleep step, wait for a period of delay (until the voltage stabilizes after charging and discharging), and determine whether there is a voltage rise based on the adjacent two sampling voltages. If [(current voltage - previous voltage)&gt;set amplitude], it will be protected; Unit: mV</value>
+    <comment>休眠步次中，等待一段延时后（待充放电结束电压稳定），根据相邻两次采样电压来判断是否有电压上升发生，如果【（当前电压–前次电压）&gt;设定幅度】则保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltIntervalFluctuTimeSetToolTip" xml:space="preserve">
+    <value>In the sleep step, wait for a period of delay (until the voltage stabilizes after charging and discharging), and determine whether there is a voltage rise based on the adjacent two sampling voltages. If [(current voltage - previous voltage)&gt;set amplitude], it will be protected; Unit: s</value>
+    <comment>休眠步次中，等待一段延时后（待充放电结束电压稳定），根据相邻两次采样电压来判断是否有电压上升发生，如果【（当前电压–前次电压）&gt;设定幅度】则保护；单位：s</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltIntervalFluctuTimeTitleName" xml:space="preserve">
+    <value>&lt;56&gt;Sleep step voltage abnormal fluctuation delay time</value>
+    <comment>&lt;56&gt;休眠步次电压异常波动延时时间</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltIntervalFluctuTitleName" xml:space="preserve">
+    <value>&lt;57&gt;Detection amplitude of abnormal voltage fluctuation in sleep steps</value>
+    <comment>&lt;57&gt;休眠步次电压异常波动检测幅值</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltSlumpSetToolTip" xml:space="preserve">
+    <value>Detect whether there is a voltage drop during the charging process, and determine whether there is a voltage drop based on the adjacent two sampled voltages. If [(previous voltage - current voltage)&gt;set amplitude], it represents a voltage drop, and protection is activated at this time; Unit: mV</value>
+    <comment>检测充电过程中是否有电压突降，根据相邻两次采样电压来判断是否有电压突降发生，如果【（前次电压–当前电压）&gt;设定幅度】，则代表电压突降，这时起保护；单位：mV</comment>
+  </data>
+  <data name="UserControlProtect通用保护VoltSlumpTitleName" xml:space="preserve">
+    <value>&lt;61&gt;Voltage drop</value>
+    <comment>&lt;61&gt;电压突降</comment>
+  </data>
+  <data name="UserControl库位选中label1Text" xml:space="preserve">
+    <value>Row:</value>
+    <comment>排:</comment>
+  </data>
+  <data name="UserControl库位选中label2Text" xml:space="preserve">
+    <value>Column:</value>
+    <comment>列:</comment>
+  </data>
+  <data name="UserControl库位选中label3Text" xml:space="preserve">
+    <value>Layer:</value>
+    <comment>层:</comment>
+  </data>
+  <data name="UserControl曲线BatteryTemp" xml:space="preserve">
+    <value>BatteryTemp</value>
+    <comment>电池温度</comment>
+  </data>
+  <data name="UserControl曲线button1Text" xml:space="preserve">
+    <value>Recovery</value>
+    <comment>恢复</comment>
+  </data>
+  <data name="UserControl曲线Capacity" xml:space="preserve">
+    <value>Capacity</value>
+    <comment>容量</comment>
+  </data>
+  <data name="UserControl曲线checkBoxZoomText" xml:space="preserve">
+    <value>Center Display</value>
+    <comment>居中显示</comment>
+  </data>
+  <data name="UserControl曲线Current" xml:space="preserve">
+    <value>Current</value>
+    <comment>电流</comment>
+  </data>
+  <data name="UserControl曲线label12Text" xml:space="preserve">
+    <value>Channel Selection</value>
+    <comment>通道选择</comment>
+  </data>
+  <data name="UserControl曲线label14Text" xml:space="preserve">
+    <value>Work Time:</value>
+    <comment>工作时间:</comment>
+  </data>
+  <data name="UserControl曲线label16Text" xml:space="preserve">
+    <value>Step:</value>
+    <comment>流程步次:</comment>
+  </data>
+  <data name="UserControl曲线label18Text" xml:space="preserve">
+    <value>Work State:</value>
+    <comment>工作状态:</comment>
+  </data>
+  <data name="UserControl曲线label1Text" xml:space="preserve">
+    <value>Chart Style</value>
+    <comment>图表样式</comment>
+  </data>
+  <data name="UserControl曲线label20Text" xml:space="preserve">
+    <value>Battery State:</value>
+    <comment>电池状态:</comment>
+  </data>
+  <data name="UserControl曲线label22Text" xml:space="preserve">
+    <value>Voltage:</value>
+    <comment>电压:</comment>
+  </data>
+  <data name="UserControl曲线label24Text" xml:space="preserve">
+    <value>Line Voltage:</value>
+    <comment>线电压:</comment>
+  </data>
+  <data name="UserControl曲线label26Text" xml:space="preserve">
+    <value>Current:</value>
+    <comment>电流:</comment>
+  </data>
+  <data name="UserControl曲线label28Text" xml:space="preserve">
+    <value>Capacity:</value>
+    <comment>容量:</comment>
+  </data>
+  <data name="UserControl曲线label30Text" xml:space="preserve">
+    <value>Energy:</value>
+    <comment>能量:</comment>
+  </data>
+  <data name="UserControl曲线label32Text" xml:space="preserve">
+    <value>Channel Temp:</value>
+    <comment>通道温度:</comment>
+  </data>
+  <data name="UserControl曲线label34Text" xml:space="preserve">
+    <value>Battery Temp:</value>
+    <comment>电池温度:</comment>
+  </data>
+  <data name="UserControl曲线label36Text" xml:space="preserve">
+    <value>IR:</value>
+    <comment>接触阻抗:</comment>
+  </data>
+  <data name="UserControl曲线label3Text" xml:space="preserve">
+    <value>Step Time:</value>
+    <comment>步次时间:</comment>
+  </data>
+  <data name="UserControl曲线label9Text" xml:space="preserve">
+    <value>Channel:</value>
+    <comment>通道:</comment>
+  </data>
+  <data name="UserControl曲线Time" xml:space="preserve">
+    <value>Time</value>
+    <comment>时间</comment>
+  </data>
+  <data name="UserControl曲线Voltage" xml:space="preserve">
+    <value>Voltage</value>
+    <comment>电压</comment>
+  </data>
+  <data name="UserControl流程信息Button_DeleteText" xml:space="preserve">
+    <value>Delete</value>
+    <comment>删除</comment>
+  </data>
+  <data name="UserControl流程信息Button_InsertText" xml:space="preserve">
+    <value>Insert</value>
+    <comment>插入</comment>
+  </data>
+  <data name="UserControl流程信息Button_MoveDownText" xml:space="preserve">
+    <value>Move Down</value>
+    <comment>下移</comment>
+  </data>
+  <data name="UserControl流程信息Button_MoveUpText" xml:space="preserve">
+    <value>Move Up</value>
+    <comment>上移</comment>
+  </data>
+  <data name="UserControl流程信息checkBoxOCV测试Text" xml:space="preserve">
+    <value>OCV Test</value>
+    <comment>OCV测试</comment>
+  </data>
+  <data name="UserControl流程信息checkBox_EnabledText" xml:space="preserve">
+    <value>Enable</value>
+    <comment>启用</comment>
+  </data>
+  <data name="UserControl流程信息checkBox接触测试Text" xml:space="preserve">
+    <value>Contact Test</value>
+    <comment>接触测试</comment>
+  </data>
+  <data name="UserControl流程信息Col单步次保护HeaderText" xml:space="preserve">
+    <value>Step Protection</value>
+    <comment>单步次保护</comment>
+  </data>
+  <data name="UserControl流程信息Col容量上限HeaderText" xml:space="preserve">
+    <value>Capacity Max (mV)</value>
+    <comment>容量上限(mV)</comment>
+  </data>
+  <data name="UserControl流程信息Col容量下限HeaderText" xml:space="preserve">
+    <value>Capacity Min (mV)</value>
+    <comment>容量下限(mV)</comment>
+  </data>
+  <data name="UserControl流程信息Col时长HeaderText" xml:space="preserve">
+    <value>Duration (hh:mm:ss)</value>
+    <comment>时长(hh:mm:ss)</comment>
+  </data>
+  <data name="UserControl流程信息Col步次IDHeaderText" xml:space="preserve">
+    <value>Step ID</value>
+    <comment>步次ID</comment>
+  </data>
+  <data name="UserControl流程信息Col步次类型HeaderText" xml:space="preserve">
+    <value>Step Type</value>
+    <comment>步次类型</comment>
+  </data>
+  <data name="UserControl流程信息Col电压上限HeaderText" xml:space="preserve">
+    <value>Voltage Max (mV)</value>
+    <comment>电压上限(mV)</comment>
+  </data>
+  <data name="UserControl流程信息Col电压下限HeaderText" xml:space="preserve">
+    <value>Voltage Min (mV)</value>
+    <comment>电压下限(mV)</comment>
+  </data>
+  <data name="UserControl流程信息Col电流HeaderText" xml:space="preserve">
+    <value>Current (mA)</value>
+    <comment>电流(mA)</comment>
+  </data>
+  <data name="UserControl流程信息Col电流上限HeaderText" xml:space="preserve">
+    <value>Current Max (mA)</value>
+    <comment>电流上限(mA)</comment>
+  </data>
+  <data name="UserControl流程信息Col电流下限HeaderText" xml:space="preserve">
+    <value>Current Min (mA)</value>
+    <comment>电流下限(mA)</comment>
+  </data>
+  <data name="UserControl流程信息Col结束容量HeaderText" xml:space="preserve">
+    <value>End Capacity (mAh)</value>
+    <comment>结束容量(mAh)</comment>
+  </data>
+  <data name="UserControl流程信息Col结束电压HeaderText" xml:space="preserve">
+    <value>End Voltage (mV)</value>
+    <comment>结束电压(mV)</comment>
+  </data>
+  <data name="UserControl流程信息Col结束电流HeaderText" xml:space="preserve">
+    <value>End Current (mA)</value>
+    <comment>结束电流(mA)</comment>
+  </data>
+  <data name="UserControl流程信息groupBox4Text" xml:space="preserve">
+    <value>Charge/DisCharge Step</value>
+    <comment>充放电步次</comment>
+  </data>
+  <data name="UserControl流程信息groupBox充电保护Text" xml:space="preserve">
+    <value>Charge Protection</value>
+    <comment>充电保护</comment>
+  </data>
+  <data name="UserControl流程信息groupBox放电保护Text" xml:space="preserve">
+    <value>DisCharge Protection</value>
+    <comment>放电保护</comment>
+  </data>
+  <data name="UserControl流程信息groupBox通用保护Text" xml:space="preserve">
+    <value>General Protection</value>
+    <comment>通用保护</comment>
+  </data>
+  <data name="UserControl流程信息label1Text" xml:space="preserve">
+    <value>SKIP:Empty  REST:Sleep  CC:Constant Current  CV:Constant Voltage  CCCV:Constant Current/Constant Voltage  DC:Constant Current DisCharge</value>
+    <comment>SKIP:空  REST:休眠  CC:恒流充电  CV:恒压充电  CCCV:恒流恒压充电  DC:恒流放电</comment>
+  </data>
+  <data name="UserControl流程信息NORetestText" xml:space="preserve">
+    <value>NormalProcess</value>
+    <comment>正常流程</comment>
+  </data>
+  <data name="UserControl流程信息RetestText" xml:space="preserve">
+    <value>RetestProcess</value>
+    <comment>复测流程</comment>
+  </data>
+  <data name="UserControl流程信息单盘NG上限Text" xml:space="preserve">
+    <value>Maximum number of NG in a single tray:</value>
+    <comment>单盘NG数量上限：</comment>
+  </data>
+</root>

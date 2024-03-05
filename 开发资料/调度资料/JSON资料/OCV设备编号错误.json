@@ -1,0 +1,10 @@
+{
+  "message": "[OCV1]设备编号错误,不符合‘ocvX-X’规则,必须带有‘-’，请检查！",
+  "pileContent": {
+    "batterys": [],
+    "batteryType": null,
+    "fileName": null,
+    "palletBarcode": null
+  },
+  "result": 0
+}

@@ -1,0 +1,10 @@
+{
+  "message": "库位号：N0010080011 绑定托盘不存在！",
+  "pileContent": {
+    "batterys": [],
+    "batteryType": null,
+    "fileName": null,
+    "palletBarcode": null
+  },
+  "result": 0
+}

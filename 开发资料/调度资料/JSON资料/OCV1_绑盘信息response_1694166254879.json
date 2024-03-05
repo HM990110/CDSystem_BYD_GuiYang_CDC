@@ -1,0 +1,1579 @@
+{
+  "message": "组盘电芯数据获取成功！",
+  "pileContent": {
+    "batterys": [
+      {
+        "batteryBarcode": "FC468014XB0000010000",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 1
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010001",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 2
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010002",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 3
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010003",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 4
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010004",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 5
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010005",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 6
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010006",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 7
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010007",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 8
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010008",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 9
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010009",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 10
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010010",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 11
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010011",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 12
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010012",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 13
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010013",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 14
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010014",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 15
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010015",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 16
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010016",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 17
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010017",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 18
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010018",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 19
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010019",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 20
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010020",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 21
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010021",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 22
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010022",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 23
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010023",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 24
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010024",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 25
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010025",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 26
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010026",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 27
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010027",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 28
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010028",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 29
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010029",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 30
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010030",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 31
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010031",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 32
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010032",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 33
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010033",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 34
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010034",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 35
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010035",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 36
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010036",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 37
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010037",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 38
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010038",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 39
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010039",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 40
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010040",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 41
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010041",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 42
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010042",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 43
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010043",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 44
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010044",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 45
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010045",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 46
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010046",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 47
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010047",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 48
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010048",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 49
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010049",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 50
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010050",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 51
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010051",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 52
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010052",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 53
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010053",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 54
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010054",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 55
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010055",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 56
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010056",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 57
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010057",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 58
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010058",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 59
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010059",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 60
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010060",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 61
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010061",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 62
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010062",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 63
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010063",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 64
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010064",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 65
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010065",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 66
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010066",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 67
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010067",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 68
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010068",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 69
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010069",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 70
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010070",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 71
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010071",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 72
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010072",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 73
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010073",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 74
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010074",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 75
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010075",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 76
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010076",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 77
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010077",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 78
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010078",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 79
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010079",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 80
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010080",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 81
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010081",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 82
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010082",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 83
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010083",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 84
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010084",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 85
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010085",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 86
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010086",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 87
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010087",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 88
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010088",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 89
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010089",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 90
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010090",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 91
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010091",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 92
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010092",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 93
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010093",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 94
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010094",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 95
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010095",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 96
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010096",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 97
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010097",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 98
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010098",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 99
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010099",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 100
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010100",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 101
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010101",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 102
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010102",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 103
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010103",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 104
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010104",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 105
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010105",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 106
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010106",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 107
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010107",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 108
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010108",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 109
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010109",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 110
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010110",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 111
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010111",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 112
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010112",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 113
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010113",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 114
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010114",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 115
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010115",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 116
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010116",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 117
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010117",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 118
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010118",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 119
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010119",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 120
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010120",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 121
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010121",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 122
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010122",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 123
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010123",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 124
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010124",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 125
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010125",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 126
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010126",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 127
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010127",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 128
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010128",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 129
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010129",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 130
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010130",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 131
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010131",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 132
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010132",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 133
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010133",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 134
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010134",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 135
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010135",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 136
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010136",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 137
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010137",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 138
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010138",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 139
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010139",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 140
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010140",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 141
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010141",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 142
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010142",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 143
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010143",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 144
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010144",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 145
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010145",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 146
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010146",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 147
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010147",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 148
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010148",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 149
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010149",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 150
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010150",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 151
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010151",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 152
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010152",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 153
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010153",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 154
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010154",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 155
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010155",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 156
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010156",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 157
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010157",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 158
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010158",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 159
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010159",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 160
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010160",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 161
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010161",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 162
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010162",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 163
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010163",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 164
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010164",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 165
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010165",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 166
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010166",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 167
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010167",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 168
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010168",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 169
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010169",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 170
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010170",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 171
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010171",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 172
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010172",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 173
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010173",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 174
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010174",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 175
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010175",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 176
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010176",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 177
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010177",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 178
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010178",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 179
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010179",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 180
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010180",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 181
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010181",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 182
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010182",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 183
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010183",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 184
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010184",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 185
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010185",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 186
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010186",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 187
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010187",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 188
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010188",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 189
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010189",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 190
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010190",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 191
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010191",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 192
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010192",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 193
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010193",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 194
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010194",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 195
+      },
+      {
+        "batteryBarcode": "FC468014XB0000010195",
+        "batteryType": "4680",
+        "isNg": 1,
+        "isRealBattery": 1,
+        "nodeCode": "",
+        "palletIndex": 196
+      }
+    ],
+    "batteryType": "4680",
+    "fileName": "OCV1",
+    "palletBarcode": "YZA00001"
+  },
+  "result": 1
+}

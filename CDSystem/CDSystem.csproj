@@ -1,0 +1,128 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <AssemblyVersion>1.2.1.2</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ScottPlot.WinForms" Version="4.1.68" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CDClassLibrary\CDClassLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="FormHTTP测试.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Language\ResourceLang.Designer.cs">
+      <DependentUpon>ResourceLang.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="Other\UserControl库位选中.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="传感数据\FormDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="传感数据\Form传感数据.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="实时数据\Form_NG代码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="实时数据\Form实时数据.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="实时数据\Form电芯条码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="实时数据\UserControl曲线.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="手动作业\Form_TrayInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="手动作业\Form手动作业.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="手动作业\Form流程信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="手动作业\Form添加流程.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="手动作业\Form设置时间.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="手动作业\UserControlAuxiliaryTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="手动作业\UserControlProtect.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="手动作业\UserControl流程信息.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="系统设置\FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="系统设置\Form_IP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="系统设置\Form系统设置.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="系统设置\UC关键器件运行记录.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="系统设置\UC映射设置.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="系统设置\UC用户管理.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="设备状态\Form设备信息.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="设备状态\Form设备维护.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Language\ResourceLang.resx">
+      <LastGenOutput>ResourceLang.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

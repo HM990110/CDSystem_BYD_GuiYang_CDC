@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TAirPressureState_asError" xml:space="preserve">
+    <value>异常</value>
+    <comment>异常</comment>
+  </data>
+  <data name="TAirPressureState_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TAutoDoorState_dsDock" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="TAutoDoorState_dsNull" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="TAutoDoorState_dsOpen" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="TCageState_CageAlarm" xml:space="preserve">
+    <value>设备故障</value>
+    <comment>设备故障</comment>
+  </data>
+  <data name="TCageState_CageNormal" xml:space="preserve">
+    <value>设备正常</value>
+    <comment>设备正常</comment>
+  </data>
+  <data name="TCapEnCalculateMode_AddUp" xml:space="preserve">
+    <value>步次类型相同时，累计计算</value>
+    <comment>步次类型相同时，累计计算</comment>
+  </data>
+  <data name="TCapEnCalculateMode_StartAnew" xml:space="preserve">
+    <value>每个步次从零开始计算</value>
+    <comment>每个步次从零开始计算</comment>
+  </data>
+  <data name="TComState_Error" xml:space="preserve">
+    <value>初始化不对</value>
+    <comment>初始化不对</comment>
+  </data>
+  <data name="TComState_Null" xml:space="preserve">
+    <value>电源故障通讯不上</value>
+    <comment>电源故障通讯不上</comment>
+  </data>
+  <data name="TComState_OK" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TContactTestFlag_Complete" xml:space="preserve">
+    <value>接触测试完成</value>
+    <comment>接触测试完成</comment>
+  </data>
+  <data name="TContactTestFlag_Error1" xml:space="preserve">
+    <value>接触测试启动失败：流程数据无效</value>
+    <comment>接触测试启动失败：流程数据无效</comment>
+  </data>
+  <data name="TContactTestFlag_Error2" xml:space="preserve">
+    <value>接触测试启动失败：软件授权到期</value>
+    <comment>接触测试启动失败：软件授权到期</comment>
+  </data>
+  <data name="TContactTestFlag_Error3" xml:space="preserve">
+    <value>接触测试启动失败：平台故障</value>
+    <comment>接触测试启动失败：平台故障</comment>
+  </data>
+  <data name="TContactTestFlag_Init" xml:space="preserve">
+    <value>初始状态或接触测试中</value>
+    <comment>初始状态或接触测试中</comment>
+  </data>
+  <data name="TCOState_asAlarm" xml:space="preserve">
+    <value>CO超标报警</value>
+    <comment>CO超标报警</comment>
+  </data>
+  <data name="TCOState_asInitError" xml:space="preserve">
+    <value>传感器异常或没有连接</value>
+    <comment>传感器异常或没有连接</comment>
+  </data>
+  <data name="TCOState_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TCurtainState_csError" xml:space="preserve">
+    <value>异常</value>
+    <comment>异常</comment>
+  </data>
+  <data name="TCurtainState_csExtend" xml:space="preserve">
+    <value>布幕伸出</value>
+    <comment>布幕伸出</comment>
+  </data>
+  <data name="TCurtainState_csWithdrawal" xml:space="preserve">
+    <value>布幕收回</value>
+    <comment>布幕收回</comment>
+  </data>
+  <data name="TCylinderStatorState_dsDock" xml:space="preserve">
+    <value>气缸闭合</value>
+    <comment>气缸闭合</comment>
+  </data>
+  <data name="TCylinderStatorState_dsRunning" xml:space="preserve">
+    <value>气缸运动中</value>
+    <comment>气缸运动中</comment>
+  </data>
+  <data name="TCylinderStatorState_dsUndock" xml:space="preserve">
+    <value>气缸张开</value>
+    <comment>气缸张开</comment>
+  </data>
+  <data name="TDeviceState_efNull" xml:space="preserve">
+    <value>平台健康</value>
+    <comment>平台健康</comment>
+  </data>
+  <data name="TDeviceState_ErrorOther" xml:space="preserve">
+    <value>平台有故障</value>
+    <comment>平台有故障,具体故障码通过平台报警读取命令获取</comment>
+  </data>
+  <data name="TDeviceState_ProCannotWorkError" xml:space="preserve">
+    <value>故障流程不能工作</value>
+    <comment>故障流程不能工作</comment>
+  </data>
+  <data name="TDeviceState_ProCanWorkError" xml:space="preserve">
+    <value>一般故障流程可以工作</value>
+    <comment>一般故障流程可以工作</comment>
+  </data>
+  <data name="TDeviceState_protecte" xml:space="preserve">
+    <value>通道有保护</value>
+    <comment>通道有保护</comment>
+  </data>
+  <data name="TDoorState_dsDock" xml:space="preserve">
+    <value>到位</value>
+    <comment>到位</comment>
+  </data>
+  <data name="TDoorState_dsNull" xml:space="preserve">
+    <value>无效</value>
+    <comment>无效</comment>
+  </data>
+  <data name="TEmgButtonState_esEMG" xml:space="preserve">
+    <value>有急停按下</value>
+    <comment>有急停按下</comment>
+  </data>
+  <data name="TEmgButtonState_esNull" xml:space="preserve">
+    <value>没有急停</value>
+    <comment>没有急停</comment>
+  </data>
+  <data name="TEtalonPowerState_NoOutput" xml:space="preserve">
+    <value>有输出</value>
+    <comment>有输出</comment>
+  </data>
+  <data name="TEtalonPowerState_WithOutput" xml:space="preserve">
+    <value>无输出</value>
+    <comment>无输出</comment>
+  </data>
+  <data name="TFanState_fsError" xml:space="preserve">
+    <value>故障</value>
+    <comment>故障</comment>
+  </data>
+  <data name="TFanState_fsRun" xml:space="preserve">
+    <value>打开</value>
+    <comment>打开</comment>
+  </data>
+  <data name="TFanState_fsStop" xml:space="preserve">
+    <value>关闭</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="TFlowValveState_Completed" xml:space="preserve">
+    <value>检测完成</value>
+  </data>
+  <data name="TFlowValveState_Error" xml:space="preserve">
+    <value>检测故障</value>
+  </data>
+  <data name="TFlowValveState_Init" xml:space="preserve">
+    <value>初始化</value>
+  </data>
+  <data name="TFlowValveState_Start" xml:space="preserve">
+    <value>开始检测</value>
+  </data>
+  <data name="TFlowValveState_Test" xml:space="preserve">
+    <value>检测中</value>
+  </data>
+  <data name="TForkState_fsDock" xml:space="preserve">
+    <value>挡住</value>
+    <comment>挡住</comment>
+  </data>
+  <data name="TForkState_fsUndock" xml:space="preserve">
+    <value>没挡</value>
+    <comment>没挡</comment>
+  </data>
+  <data name="ThreeColorLightState_Extinguish" xml:space="preserve">
+    <value>灭</value>
+    <comment>灭</comment>
+  </data>
+  <data name="ThreeColorLightState_Green" xml:space="preserve">
+    <value>绿灯亮</value>
+    <comment>绿灯亮</comment>
+  </data>
+  <data name="ThreeColorLightState_Red" xml:space="preserve">
+    <value>红灯亮</value>
+    <comment>红灯亮</comment>
+  </data>
+  <data name="ThreeColorLightState_Yellow" xml:space="preserve">
+    <value>黄灯亮</value>
+    <comment>黄灯亮</comment>
+  </data>
+  <data name="TInverterPowerState_asAlarm" xml:space="preserve">
+    <value>电源关闭</value>
+    <comment>电源关闭</comment>
+  </data>
+  <data name="TInverterPowerState_asInitError" xml:space="preserve">
+    <value>电源错误</value>
+    <comment>电源错误</comment>
+  </data>
+  <data name="TInverterPowerState_asNormal" xml:space="preserve">
+    <value>电源开启</value>
+    <comment>电源开启</comment>
+  </data>
+  <data name="TInverterStateTwowin_asAlarm" xml:space="preserve">
+    <value>电源故障通讯不上</value>
+    <comment>电源故障通讯不上</comment>
+  </data>
+  <data name="TInverterStateTwowin_asInitError" xml:space="preserve">
+    <value>初始化不对</value>
+    <comment>初始化不对</comment>
+  </data>
+  <data name="TInverterStateTwowin_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TMaintPreState_Completed" xml:space="preserve">
+    <value>测漏完成</value>
+  </data>
+  <data name="TMaintPreState_Failed" xml:space="preserve">
+    <value>测漏失败</value>
+  </data>
+  <data name="TMaintPreState_Init" xml:space="preserve">
+    <value>初始状态</value>
+  </data>
+  <data name="TMaintPreState_PressureHolding" xml:space="preserve">
+    <value>保压检测</value>
+  </data>
+  <data name="TMaintPreState_RateDetection" xml:space="preserve">
+    <value>漏率检测</value>
+  </data>
+  <data name="TMaintPreState_StablePressureSetection" xml:space="preserve">
+    <value>稳压检测</value>
+  </data>
+  <data name="TMaintPreState_Vacuuming" xml:space="preserve">
+    <value>测漏抽真空</value>
+  </data>
+  <data name="TMcuWorkState_Auto1" xml:space="preserve">
+    <value>正常模式，流程工作中</value>
+    <comment>下位机处于正常工作模式，流程工作中不可进入测试模式</comment>
+  </data>
+  <data name="TMcuWorkState_Auto2" xml:space="preserve">
+    <value>正常模式，空闲状态</value>
+    <comment>下位机处于正常工作模式，空闲状态，可进入测试模式</comment>
+  </data>
+  <data name="TMcuWorkState_Manual1" xml:space="preserve">
+    <value>手动模式，不可退出</value>
+    <comment>下位机处于手动测试模式，不可退出（与进入的转态不一致）</comment>
+  </data>
+  <data name="TMcuWorkState_Manual2" xml:space="preserve">
+    <value>手动模式，可退出</value>
+    <comment>下位机处于手动测试模式，可退出测试模式</comment>
+  </data>
+  <data name="TMechanicalWorkSate_AtWork" xml:space="preserve">
+    <value>机构在执行流程动作中</value>
+    <comment>机构在执行流程动作中（收到上位机下发的启动或停止命令）</comment>
+  </data>
+  <data name="TMechanicalWorkSate_Completion" xml:space="preserve">
+    <value>机构动作正常完成</value>
+    <comment>机构动作正常完成</comment>
+  </data>
+  <data name="TMechanicalWorkSate_Init" xml:space="preserve">
+    <value>初始化状态</value>
+    <comment>初始化状态(只在第一次上电后)</comment>
+  </data>
+  <data name="TMechanicalWorkSate_Timeout" xml:space="preserve">
+    <value>机构动作执行超时</value>
+    <comment>机构动作执行超时（异常）</comment>
+  </data>
+  <data name="TNegatPreState_Completed" xml:space="preserve">
+    <value>负压调整完成</value>
+  </data>
+  <data name="TNegatPreState_Init" xml:space="preserve">
+    <value>初始状态</value>
+  </data>
+  <data name="TNegatPreState_InProgress" xml:space="preserve">
+    <value>负压调整中</value>
+  </data>
+  <data name="TNegatPreState_TimedOut" xml:space="preserve">
+    <value>负压调整超时</value>
+  </data>
+  <data name="TNextMode_Next" xml:space="preserve">
+    <value>继续下一步</value>
+    <comment>继续下一步</comment>
+  </data>
+  <data name="TNextMode_Suspend" xml:space="preserve">
+    <value>暂停，等待上位机重新启动命令</value>
+    <comment>暂停，等待上位机重新启动命令</comment>
+  </data>
+  <data name="TOperationMode_Production" xml:space="preserve">
+    <value>生产模式</value>
+    <comment>生产模式</comment>
+  </data>
+  <data name="TOperationMode_Test" xml:space="preserve">
+    <value>测试模式</value>
+    <comment>测试模式</comment>
+  </data>
+  <data name="TPLCFireControlState_NoControl" xml:space="preserve">
+    <value>无消防</value>
+    <comment>无消防</comment>
+  </data>
+  <data name="TPLCFireControlState_WithControl" xml:space="preserve">
+    <value>有消防</value>
+    <comment>有消防</comment>
+  </data>
+  <data name="TPluggingState_Completed" xml:space="preserve">
+    <value>测堵完成</value>
+  </data>
+  <data name="TPluggingState_Failed" xml:space="preserve">
+    <value>测堵失败</value>
+  </data>
+  <data name="TPluggingState_Init" xml:space="preserve">
+    <value>初始状态</value>
+  </data>
+  <data name="TPluggingState_StablePressureSetection" xml:space="preserve">
+    <value>测堵稳压检测</value>
+  </data>
+  <data name="TPluggingState_Vacuuming" xml:space="preserve">
+    <value>测堵抽真空</value>
+  </data>
+  <data name="TPowerFailFlag_pfInit" xml:space="preserve">
+    <value>初始化状态</value>
+    <comment>初始化状态</comment>
+  </data>
+  <data name="TPowerFailFlag_pfNormal" xml:space="preserve">
+    <value>正常工作状态</value>
+    <comment>正常工作状态</comment>
+  </data>
+  <data name="TPowerFailFlag_pfNormalStop" xml:space="preserve">
+    <value>正常掉电</value>
+    <comment>正常掉电</comment>
+  </data>
+  <data name="TPowerFailFlag_pfOccurred" xml:space="preserve">
+    <value>异常掉电需要上位机下发掉电清除或恢复</value>
+    <comment>异常掉电需要上位机下发掉电清除或恢复</comment>
+  </data>
+  <data name="TPowerFailFlag_pfResumeError" xml:space="preserve">
+    <value>恢复失败</value>
+    <comment>恢复失败</comment>
+  </data>
+  <data name="TPowerFailFlag_pfResuming" xml:space="preserve">
+    <value>掉电恢复或清除执行中</value>
+    <comment>掉电恢复或清除执行中</comment>
+  </data>
+  <data name="TPreStatee_Overtime" xml:space="preserve">
+    <value>超时</value>
+    <comment>超时</comment>
+  </data>
+  <data name="TPreState_Completion" xml:space="preserve">
+    <value>完成</value>
+    <comment>完成</comment>
+  </data>
+  <data name="TPreState_Init" xml:space="preserve">
+    <value>初始状态</value>
+    <comment>初始状态</comment>
+  </data>
+  <data name="TProcessFlag_pfAutoInProc" xml:space="preserve">
+    <value>自动运行中</value>
+  </data>
+  <data name="TProcessFlag_pfAutoProcEnd" xml:space="preserve">
+    <value>自动停止</value>
+  </data>
+  <data name="TProcessFlag_pfEndNG" xml:space="preserve">
+    <value>流程结束错误</value>
+    <comment>流程结束错误</comment>
+  </data>
+  <data name="TProcessFlag_pfInContactTest" xml:space="preserve">
+    <value>接触测试</value>
+  </data>
+  <data name="TProcessFlag_pfInProcNG" xml:space="preserve">
+    <value>流程运行中错误</value>
+    <comment>流程运行中错误</comment>
+  </data>
+  <data name="TProcessFlag_pfMaintPreTest" xml:space="preserve">
+    <value>保压测试</value>
+    <comment>保压测试</comment>
+  </data>
+  <data name="TProcessFlag_pfMaintPreTestNG" xml:space="preserve">
+    <value>保压错误</value>
+    <comment>保压错误</comment>
+  </data>
+  <data name="TProcessFlag_pfManualInProc" xml:space="preserve">
+    <value>手动运行中</value>
+  </data>
+  <data name="TProcessFlag_pfManualProcEnd" xml:space="preserve">
+    <value>手动停止</value>
+  </data>
+  <data name="TProcessFlag_pfNegatPreTest" xml:space="preserve">
+    <value>负压测试</value>
+    <comment>负压测试</comment>
+  </data>
+  <data name="TProcessFlag_pfNegatPreTestNG" xml:space="preserve">
+    <value>负压错误</value>
+    <comment>负压错误</comment>
+  </data>
+  <data name="TProcessFlag_pfNoCellCheck" xml:space="preserve">
+    <value>无电池通道检测</value>
+    <comment>无电池通道检测</comment>
+  </data>
+  <data name="TProcessFlag_pfNoCellCheckNG" xml:space="preserve">
+    <value>无电池通道检测错误</value>
+    <comment>无电池通道检测错误</comment>
+  </data>
+  <data name="TProcessFlag_pfOnMnStop" xml:space="preserve">
+    <value>流程运行中</value>
+    <comment>流程运行中</comment>
+  </data>
+  <data name="TProcessFlag_pfOnMnStopNG" xml:space="preserve">
+    <value>流程运行中错误</value>
+    <comment>流程运行中错误</comment>
+  </data>
+  <data name="TProcessFlag_pfPluggingTest" xml:space="preserve">
+    <value>测堵测试</value>
+    <comment>测堵测试</comment>
+  </data>
+  <data name="TProcessFlag_pfPluggingTestNG" xml:space="preserve">
+    <value>测堵错误</value>
+    <comment>测堵错误</comment>
+  </data>
+  <data name="TProcessFlag_pfReady" xml:space="preserve">
+    <value>流程准备</value>
+    <comment>流程准备</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitContactTest" xml:space="preserve">
+    <value>接触测试</value>
+    <comment>接触测试</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitContactTestNG" xml:space="preserve">
+    <value>接触测试错误</value>
+    <comment>接触测试错误</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitContinue" xml:space="preserve">
+    <value>手动停止</value>
+    <comment>手动停止</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitContinueNG" xml:space="preserve">
+    <value>流程恢复失败</value>
+    <comment>流程恢复失败</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitFixProc" xml:space="preserve">
+    <value>流程获取或发送</value>
+    <comment>流程获取或发送</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitFixProcNG" xml:space="preserve">
+    <value>流程获取或发送失败</value>
+    <comment>流程获取或发送失败</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitNG" xml:space="preserve">
+    <value>流程等待时错误</value>
+    <comment>流程等待时错误</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitOCVTest" xml:space="preserve">
+    <value>OCV测试</value>
+    <comment>OCV测试</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitOCVTestNG" xml:space="preserve">
+    <value>OCV测试失败</value>
+    <comment>OCV测试失败</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitProcStart" xml:space="preserve">
+    <value>流程启动</value>
+    <comment>流程启动</comment>
+  </data>
+  <data name="TProcessFlag_pfWaitProcStartNG" xml:space="preserve">
+    <value>流程启动失败</value>
+    <comment>流程启动失败</comment>
+  </data>
+  <data name="TProcessFlag_ssInit" xml:space="preserve">
+    <value>初始状态</value>
+    <comment>初始状态</comment>
+  </data>
+  <data name="TProcessMode_Calibration" xml:space="preserve">
+    <value>校正流程</value>
+    <comment>校正流程</comment>
+  </data>
+  <data name="TProcessMode_Measurement" xml:space="preserve">
+    <value>计量流程</value>
+    <comment>计量流程</comment>
+  </data>
+  <data name="TProcessMode_Normal" xml:space="preserve">
+    <value>正常流程</value>
+    <comment>正常流程</comment>
+  </data>
+  <data name="TProcessStatus_Init" xml:space="preserve">
+    <value>初始状态</value>
+    <comment>初始状态（从未工作过的状态）</comment>
+  </data>
+  <data name="TProcessStatus_Resume" xml:space="preserve">
+    <value>启动</value>
+    <comment>启动</comment>
+  </data>
+  <data name="TProcessStatus_Running" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="TProcessStatus_Stop" xml:space="preserve">
+    <value>停止</value>
+    <comment>停止</comment>
+  </data>
+  <data name="TProcessStatus_Suspend" xml:space="preserve">
+    <value>暂停</value>
+    <comment>暂停</comment>
+  </data>
+  <data name="TRESETButtonStates_esNull" xml:space="preserve">
+    <value>弹出</value>
+  </data>
+  <data name="TRESETButtonStates_esRESET" xml:space="preserve">
+    <value>按下</value>
+  </data>
+  <data name="TResKeyStates_Down" xml:space="preserve">
+    <value>按下</value>
+    <comment>按下</comment>
+  </data>
+  <data name="TResKeyStates_Up" xml:space="preserve">
+    <value>旋出</value>
+    <comment>旋出</comment>
+  </data>
+  <data name="TSecureState_ssNo" xml:space="preserve">
+    <value>无效</value>
+    <comment>无效</comment>
+  </data>
+  <data name="TSecureState_ssSecure" xml:space="preserve">
+    <value>安全</value>
+    <comment>安全</comment>
+  </data>
+  <data name="TSensorsEMGFault_efAutoDoorError" xml:space="preserve">
+    <value>自动门传感器报警</value>
+    <comment>自动门传感器报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efCentreFanError" xml:space="preserve">
+    <value>中框风机报警</value>
+    <comment>中框风机报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efExtendError" xml:space="preserve">
+    <value>布幕伸出报警</value>
+    <comment>布幕伸出报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efFireDoorError" xml:space="preserve">
+    <value>安全门报警</value>
+  </data>
+  <data name="TSensorsEMGFault_efProbeDownError" xml:space="preserve">
+    <value>气缸到位报警</value>
+    <comment>气缸到位报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efProbeUpError" xml:space="preserve">
+    <value>气缸零位报警</value>
+    <comment>气缸零位报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efSideFanError" xml:space="preserve">
+    <value>维修侧风机报警</value>
+    <comment>维修侧风机报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efSpeedGovernFanError" xml:space="preserve">
+    <value>调速水冷风机报警</value>
+    <comment>调速水冷风机报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efTopFanError" xml:space="preserve">
+    <value>顶部风机报警</value>
+    <comment>顶部风机报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efTray1Error" xml:space="preserve">
+    <value>托盘传感器 1 报警</value>
+    <comment>托盘传感器 1 报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efTray2Error" xml:space="preserve">
+    <value>托盘传感器 2 报警</value>
+    <comment>托盘传感器 2 报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efTrayAngleError" xml:space="preserve">
+    <value>托盘缺角传感器报警</value>
+    <comment>托盘缺角传感器报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_efWaterFanError" xml:space="preserve">
+    <value>水冷风机报警</value>
+  </data>
+  <data name="TSensorsEMGFault_efWithdrawalError" xml:space="preserve">
+    <value>布幕收回报警</value>
+    <comment>布幕收回报警</comment>
+  </data>
+  <data name="TSensorsEMGFault_sfFock" xml:space="preserve">
+    <value>货叉传感器报警</value>
+    <comment>货叉传感器报警</comment>
+  </data>
+  <data name="TSensorStates_Null" xml:space="preserve">
+    <value>无效</value>
+    <comment>无效</comment>
+  </data>
+  <data name="TSensorStates_OK" xml:space="preserve">
+    <value>有效</value>
+    <comment>有效</comment>
+  </data>
+  <data name="TSeriousEMGFault_efAir" xml:space="preserve">
+    <value>气压报警</value>
+    <comment>气压报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efBoardTemp" xml:space="preserve">
+    <value>电池温度报警</value>
+    <comment>电池温度报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efCO" xml:space="preserve">
+    <value>CO报警</value>
+    <comment>CO报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efFan" xml:space="preserve">
+    <value>机构风机报警</value>
+    <comment>机构风机报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efFireControl" xml:space="preserve">
+    <value>消防报警（PLC 给机笼）</value>
+    <comment>消防报警（PLC 给机笼）</comment>
+  </data>
+  <data name="TSeriousEMGFault_efFromPC" xml:space="preserve">
+    <value>PC报警</value>
+    <comment>PC报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efInverter" xml:space="preserve">
+    <value>逆变器报警</value>
+    <comment>逆变器报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efMaintPreState" xml:space="preserve">
+    <value>保压报警</value>
+    <comment>保压报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efManual" xml:space="preserve">
+    <value>按钮急停报警</value>
+    <comment>按钮急停报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efManualPC" xml:space="preserve">
+    <value>PC命令急停</value>
+    <comment>PC命令急停</comment>
+  </data>
+  <data name="TSeriousEMGFault_efNegatPreState" xml:space="preserve">
+    <value>负压报警</value>
+    <comment>负压报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efPluggingState" xml:space="preserve">
+    <value>测堵报警</value>
+    <comment>测堵报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efPowerSupply" xml:space="preserve">
+    <value>电源部断电报警</value>
+    <comment>电源部断电报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efSmog" xml:space="preserve">
+    <value>烟雾报警</value>
+    <comment>烟雾报警</comment>
+  </data>
+  <data name="TSeriousEMGFault_efTemp" xml:space="preserve">
+    <value>机构部温度报警</value>
+    <comment>机构部温度报警</comment>
+  </data>
+  <data name="TSmogState_asAlarm" xml:space="preserve">
+    <value>烟雾超标报警</value>
+    <comment>烟雾超标报警</comment>
+  </data>
+  <data name="TSmogState_asInitError" xml:space="preserve">
+    <value>传感器异常或没有连接</value>
+    <comment>传感器异常或没有连接</comment>
+  </data>
+  <data name="TSmogState_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TStageState_ssChargeDis" xml:space="preserve">
+    <value>充放电测试报警</value>
+    <comment>充放电测试报警</comment>
+  </data>
+  <data name="TStageState_ssEMG" xml:space="preserve">
+    <value>机构错误</value>
+    <comment>机构错误</comment>
+  </data>
+  <data name="TStageState_ssInit" xml:space="preserve">
+    <value>初始状态</value>
+    <comment>初始状态</comment>
+  </data>
+  <data name="TStageState_ssMaintain" xml:space="preserve">
+    <value>真空测试报警</value>
+    <comment>真空测试报警</comment>
+  </data>
+  <data name="TStageState_ssOff" xml:space="preserve">
+    <value>无通信</value>
+    <comment>无通信</comment>
+  </data>
+  <data name="TStageState_ssOverTime" xml:space="preserve">
+    <value>超时</value>
+    <comment>超时</comment>
+  </data>
+  <data name="TStageState_ssPCAlarm" xml:space="preserve">
+    <value>上位机报警</value>
+    <comment>上位机报警</comment>
+  </data>
+  <data name="TStageState_ssPowerDown" xml:space="preserve">
+    <value>掉电标记</value>
+    <comment>掉电标记</comment>
+  </data>
+  <data name="TStageState_ssProcessEnd" xml:space="preserve">
+    <value>作业完成</value>
+    <comment>作业完成</comment>
+  </data>
+  <data name="TStageState_ssReady" xml:space="preserve">
+    <value>流程准备</value>
+    <comment>流程准备</comment>
+  </data>
+  <data name="TStageState_ssRunning" xml:space="preserve">
+    <value>流程中</value>
+    <comment>流程中</comment>
+  </data>
+  <data name="TStageState_ssSmoke" xml:space="preserve">
+    <value>烟雾报警</value>
+    <comment>烟雾报警</comment>
+  </data>
+  <data name="TStageState_ssStop" xml:space="preserve">
+    <value>设备停止</value>
+    <comment>设备停止</comment>
+  </data>
+  <data name="TStageState_ssTemp" xml:space="preserve">
+    <value>超温报警</value>
+    <comment>超温报警</comment>
+  </data>
+  <data name="TStageState_ssTrayError" xml:space="preserve">
+    <value>托盘位置错误</value>
+    <comment>托盘位置错误</comment>
+  </data>
+  <data name="TStageState_ssTrayIn" xml:space="preserve">
+    <value>托盘进入</value>
+    <comment>托盘进入</comment>
+  </data>
+  <data name="TStageState_ssVacancy" xml:space="preserve">
+    <value>未启用</value>
+    <comment>未启用</comment>
+  </data>
+  <data name="TStageState_ssWait" xml:space="preserve">
+    <value>流程等待</value>
+    <comment>流程等待</comment>
+  </data>
+  <data name="TStageState_ssWaitOutbound" xml:space="preserve">
+    <value>等待出库</value>
+    <comment>等待出库</comment>
+  </data>
+  <data name="TStepMode_CC" xml:space="preserve">
+    <value>恒流充电</value>
+    <comment>恒流充电</comment>
+  </data>
+  <data name="TStepMode_CCCV" xml:space="preserve">
+    <value>恒流充到恒压充</value>
+    <comment>恒流充到恒压充</comment>
+  </data>
+  <data name="TStepMode_CP" xml:space="preserve">
+    <value>恒功率充电</value>
+    <comment>恒功率充电</comment>
+  </data>
+  <data name="TStepMode_CV" xml:space="preserve">
+    <value>恒压充电</value>
+    <comment>恒压充电</comment>
+  </data>
+  <data name="TStepMode_CYCLE" xml:space="preserve">
+    <value>循环步次</value>
+    <comment>循环步次</comment>
+  </data>
+  <data name="TStepMode_DC" xml:space="preserve">
+    <value>恒流放电</value>
+    <comment>恒流放电</comment>
+  </data>
+  <data name="TStepMode_DCDV" xml:space="preserve">
+    <value>恒流放到恒压放</value>
+    <comment>恒流放到恒压放</comment>
+  </data>
+  <data name="TStepMode_DP" xml:space="preserve">
+    <value>恒功率放电</value>
+    <comment>恒功率放电</comment>
+  </data>
+  <data name="TStepMode_DV" xml:space="preserve">
+    <value>恒压放电</value>
+    <comment>恒压放电</comment>
+  </data>
+  <data name="TStepMode_OCV" xml:space="preserve">
+    <value>开路测试</value>
+    <comment>开路测试</comment>
+  </data>
+  <data name="TStepMode_REST" xml:space="preserve">
+    <value>休眠</value>
+    <comment>休眠</comment>
+  </data>
+  <data name="TStepMode_SKIP" xml:space="preserve">
+    <value>跳过</value>
+    <comment>跳过</comment>
+  </data>
+  <data name="TStepMode_WAIT" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="TTempState_asAlarm" xml:space="preserve">
+    <value>温度超标报警</value>
+    <comment>温度超标报警</comment>
+  </data>
+  <data name="TTempState_asInitError" xml:space="preserve">
+    <value>传感器异常或没有连接</value>
+    <comment>传感器异常或没有连接</comment>
+  </data>
+  <data name="TTempState_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+  <data name="TTrayState_dsDock" xml:space="preserve">
+    <value>托盘到位</value>
+    <comment>托盘到位</comment>
+  </data>
+  <data name="TTrayState_dsDockError" xml:space="preserve">
+    <value>托盘不到位</value>
+    <comment>托盘不到位</comment>
+  </data>
+  <data name="TTrayState_dsUndock" xml:space="preserve">
+    <value>没有托盘</value>
+    <comment>没有托盘</comment>
+  </data>
+  <data name="TVacuumState_asInitError" xml:space="preserve">
+    <value>异常</value>
+    <comment>异常</comment>
+  </data>
+  <data name="TVacuumState_asNormal" xml:space="preserve">
+    <value>正常</value>
+    <comment>正常</comment>
+  </data>
+</root>
